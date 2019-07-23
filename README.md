@@ -8,56 +8,37 @@
 
 ## 2. [2019]A guide to deep learning in healthcare  
 [论文](A_guide_to_deep_learning_in_healthcare.pdf)  
-**Authors**: Andre Esteva1*, Alexandre Robicquet1, Bharath Ramsundar1, Volodymyr Kuleshov1, Mark DePristo2, Katherine Chou2, Claire Cui2, Greg Corrado2, Sebastian Thrun1 and Jeff Dean2
+**Authors**: Andre Esteva1*, Alexandre Robicquet1, Bharath Ramsundar1, Volodymyr Kuleshov1, Mark DePristo2, Katherine Chou2, Claire Cui2, Greg Corrado2, Sebastian Thrun1 and Jeff Dean2. 
 **Journal/Conference**: Nature Medicine  
-**Affiliation**:  1 Stanford University. 2 **Google Research**
+**Affiliation**:  1 Stanford University. 2 **Google Research**. 
 
 ## 3. [2019]Effective Medical Test Suggestions Using Deep Reinforcement Learning  
 [论文](Effective_Medical_Test_Suggestions.pdf)  
-DRL应用在医学检查的建议上
+DRL应用在医学检查的建议上.  
 **Authors**: Yang-En Chen, Kai-Fu Tang, Yu-Shao Peng, Edward Y. Chang(张智威)  
 **Journal/Conference**: preprint, arXiv:1905.12916  
 **Affiliation**:  HTC Research & Healthcare, Stanford University  
 
 ## 4. [2019]Evaluation and accurate diagnoses of pediatric diseases using artificial intelligence  
 [论文](Evaluation_accurate_diagnoses_pediatric_diseases.pdf)    
-
-**Authors**: Huiying Liang1, Brian Y. Tsui2, Hao Ni3, Carolina C. S. Valentim4, 
-             Sally L. Baxter2, Guangjian Liu1, Wenjia Cai2, Daniel S. Kermany1,2, 
-             Xin Sun1, Jiancong Chen2, Liya He1, Jie Zhu1, Pin Tian2, Hua Shao2, 
-             Lianghong Zheng5,6, Rui Hou5,6, Sierra Hewett1,2, Gen Li1,2, Ping Liang3,
-             Xuan Zang3, Zhiqi Zhang3, Liyan Pan1, Huimin Cai5,6, Rujuan Ling1, 
-             Shuhua Li1, Yongwang Cui1, Shusheng Tang1, Hong Ye1, Xiaoyan Huang1, 
-             Waner He1, Wenqing Liang1, Qing Zhang1, Jianmin Jiang1, Wei Yu1, 
-             Jianqun Gao1, Wanxing Ou1, Yingmin Deng1, Qiaozhen Hou1, Bei Wang1, 
-             Cuichan Yao1, Yan Liang1, Shu Zhang1, Yaou Duan2, Runze Zhang2, 
-             Sarah Gibson2, Charlotte L. Zhang2, Oulan Li2, Edward D. Zhang2, 
-             Gabriel Karin2, Nathan Nguyen2, Xiaokang Wu1,2, 
-             Cindy Wen2, Jie Xu2, Wenqin Xu2, Bochu Wang2, Winston Wang2, 
-             Jing Li1,2, Bianca Pizzato2, Caroline Bao2, Daoman Xiang1, 
-             Wanting He1,2, Suiqin He2, Yugui Zhou1,2, Weldon Haw2,7, 
-             Michael Goldbaum2, Adriana Tremoulet2, Chun-Nan Hsu2, 
-             Hannah Carter2, Long Zhu3, Kang Zhang1,2,7* and Huimin Xia  
+**Authors**: Huiying Liang1, Brian Y. Tsui2, Hao Ni3, Carolina C. S. Valentim4, Sally L. Baxter2, Guangjian Liu1, Wenjia Cai2, et al.  
 **Journal/Conference**: Nature Medicine  
-**Affiliation**: 
-1 （广州市妇女儿童医疗中心）Guangzhou Women and Children’s Medical Center, Guangzhou Medical University. 
-2 Institute for Genomic Medicine, Institute of Engineering in Medicine, and Shiley Eye Institute, University of California.
-3 （杭州依图科技）Hangzhou YITU Healthcare Technology Co. Ltd. 
-4 Department of Thoracic Surgery/Oncology, First Affiliated Hospital of Guangzhou Medical University, China State Key Laboratory and National Clinical Research Center for Respiratory Disease. 
-5 Guangzhou Kangrui Co. Ltd. 
-6 Guangzhou Regenerative Medicine and Health Guangdong Laboratory. 
-7 Veterans Administration Healthcare System, San Diego, CA, USA.  
+**Affiliation**:  
+1 （广州市妇女儿童医疗中心）Guangzhou Women and Children’s Medical Center, Guangzhou Medical University.   
+2 Institute for Genomic Medicine, Institute of Engineering in Medicine, and Shiley Eye Institute, University of California.  
+3 （杭州依图科技）Hangzhou YITU Healthcare Technology Co. Ltd.  
+4 Department of Thoracic Surgery/Oncology, First Affiliated Hospital of Guangzhou Medical University, China State Key Laboratory and National Clinical Research Center for Respiratory Disease.  
 
 ## 5. [2018]Clinical information extraction applications: A literature review  
 [论文](Clinical_information_extraction_applications.pdf)  
-临床信息抽取的应用，综述
+临床信息抽取的应用，综述.  
 **Authors**: Yanshan Wang, Liwei Wang, Majid Rastegar-Mojarad, Sungrim Moon, Feichen Shen, Naveed Afzal, Sijia Liu, Yuqun Zeng1, Saeed Mehrabi2, Sunghwan Sohn, **Hongfang Liu[†]**  
 **Journal/Conference**: Journal of Biomedical Informatics  
 **Affiliation**:  **Mayo Clinic**, Division of Biomedical Statistics and Informatics / Department of Health Sciences Research  
 
 ## 6. [2018]Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis  
 [论文](Deep_EHR.pdf)  
-深度学习技术在EHR分析中的研究进展，综述
+深度学习技术在EHR分析中的研究进展，综述.  
 **Authors**: **Benjamin Shickel[†]** , Patrick James Tighe, Azra Bihorac , and Parisa Rashidi  
 **Journal/Conference**: IEEE Journal of Biomedical and Health Informatics  
 **Affiliation**: **University of Florida**, Department of Computer and Information Science, Department of Anesthesiology, Department of Nephrology, J. Crayton Pruitt Department of Biomedical Engineering  
@@ -81,7 +62,7 @@ DRL应用在医学检查的建议上
 **Affiliation**: Biomedical Informatics Group, Dept. of Computer Science, **ETH Zürich**;  * AI Lab, Center for Biomedical Informatics, **Brown University**  
 
 ## 10. [2018]Application of Clinical Concept Embeddings for Heart Failure Prediction in UK EHR data  
-[论文](Application_Clinical_Concept_Embeddings4HF.pdf)
+[论文](Application_Clinical_Concept_Embeddings4HF.pdf).  
 **Authors**: Spiros Denaxas, Pontus Stenetorp*, Sebastian Riedel*, Maria Pikoula, Richard Dobson, Harry Hemingway  
 **Journal/Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Institute of Health Informatics|*Department of Computer Science, University College London  
@@ -96,7 +77,7 @@ DRL应用在医学检查的建议上
 [论文](Models_Features_Usages_predict_Medication_Non-Adherence.pdf)  
 **Authors**: Thomas Janssoone1, Clémence Bic1, Dorra Kanoun2, Pierre Hornus1, Pierre Rinder1  
 **Journal/Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
-**Affiliation**: 1)Semeia, Paris, France; 2)Institut Pasteur(巴斯德研究院), Paris, France
+**Affiliation**: 1)Semeia, Paris, France; 2)Institut Pasteur(巴斯德研究院), Paris, France.  
 
 Sêmeia is a French startup. We develop pragmatic and personalised patient programs. Our team is made up of health experts, developers, and data scientists.  
 
