@@ -8,7 +8,7 @@
 
 ## 2. [2019]A guide to deep learning in healthcare  
 [论文](A_guide_to_deep_learning_in_healthcare.pdf)  
-**Authors**: Andre Esteva1*, Alexandre Robicquet1, Bharath Ramsundar1, Volodymyr Kuleshov1, Mark DePristo2, Katherine Chou2, Claire Cui2, Greg Corrado2, Sebastian Thrun1 and Jeff Dean2. 
+**Authors**: Andre Esteva1*, Alexandre Robicquet1, Bharath Ramsundar1, Volodymyr Kuleshov1, Mark DePristo2, Katherine Chou2, Claire Cui2, Greg Corrado2, Sebastian Thrun1 and Jeff Dean2.  
 **Journal/Conference**: Nature Medicine  
 **Affiliation**:  1 Stanford University. 2 **Google Research**. 
 
@@ -144,7 +144,7 @@ Sêmeia is a French startup. We develop pragmatic and personalised patient progr
 
 ## 23. [2016 AMIA]Learning Low-Dimensional Representations of Medical Concepts  
 [论文](Learning_Low-Dimensional_Representations.pdf)  
-医学概念的表示学习
+医学概念的表示学习.  
 **Authors**: Youngduck Choi, Chill Yi-I Chiu, David Sontag  
 **Journal/Conference**: **AMIA** Jt Summits Transl Sci Proc  
 **Affiliation**: New York University  
