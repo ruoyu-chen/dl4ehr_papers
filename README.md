@@ -108,13 +108,13 @@ Sêmeia is a French startup. We develop pragmatic and personalised patient progr
 
 ## 17. [2016]Real-time prediction of mortality, readmission, and length of stay using electronic health record data  
 [论文](Real-time_prediction_of_mortality.pdf)  
-**Authors**: Xiongcai Cai1, Oscar Perez-Concha2, Enrico Coiera2, Fernando Martin-Sanchez3, Richard Day4, David Roffe5, **Blanca Gallego[†]**2  
+**Authors**: Xiongcai Cai1, Oscar Perez-Concha2, Enrico Coiera2, Fernando Martin-Sanchez3, Richard Day4, David Roffe5,  **Blanca Gallego[†]** 2  
 **Journal/Conference**: **JAMIA**  
 **Affiliation**: [澳大利亚]1 School of Computer Science and Engineering, The University of New South Wales, 2 Centre of Health Informatics, AIHI, Macquarie University, 3 Melbourne School of Information, The University of Melbourne, 4 School of Medical Sciences, The University of New South Wales, 5 Information Technology Service Centre, St Vincent’s Hospital.   
 
 ## 18. [2016]Using recurrent neural network models for early detection of heart failure onset  
 [论文](Using_RNN_for_early_detection_of_HF.pdf)  
-**Authors**: Edward Choi,1 Andy Schuetz,2 Walter F Stewart,2 and **Jimeng Sun[†]**1  
+**Authors**: Edward Choi,1 Andy Schuetz,2 Walter F Stewart,2 and **Jimeng Sun[†]** 1  
 **Journal/Conference**: **JAMIA**  
 **Affiliation**: 1 Georgia Institute of Technology, 2 Sutter Health  
 
