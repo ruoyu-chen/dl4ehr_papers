@@ -152,3 +152,46 @@ Sêmeia is a French startup. We develop pragmatic and personalised patient progr
 ## 24. [2019 Patent]System and Method for Predicting and Summarizing Medical Events from Electroinc Health Records  
 [专利全文](Google_Patent2019.pdf)  
 **Affiliation**: **Google Inc**
+
+## Multitask learning and benchmarking with clinical time series data
+**Authors**: H Harutyunyan, H Khachatrian, DC Kale… 
+**Abstract**:Health care is one of the most exciting frontiers in data mining and machine learning. Successful adoption of electronic health records (EHRs) created an explosion in digital clinical data available for analysis, but progress in machine learning for healthcare research …
+	
+## Recurrent neural networks for multivariate time series with missing values
+**Authors**: Z Che, S Purushotham, K Cho, D Sontag, Y Liu - Scientific reports, 2018 - nature.com
+**Abstract**: Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. In time series prediction and other related tasks, it has been noted that missing values and their missing patterns are often …
+
+## An improved multi-output gaussian process rnn with real-time validation for early sepsis detection
+**Authors**: J Futoma, S Hariharan, M Sendak, N Brajer… - arXiv preprint arXiv …, 2017 - arxiv.org
+**Abstract**: Sepsis is a poorly understood and potentially life-threatening complication that can occur as a result of infection. Early detection and treatment improves patient outcomes, and as such it poses an important challenge in medicine. In this work, we develop a flexible classifier that …
+	
+
+## Time-series classification using neural bag-of-features
+**Authors**: N Passalis, A Tsantekidis, A Tefas… - 2017 25th European …, 2017 - ieeexplore.ieee.org
+**Abstract**: Classification of time-series data is a challenging problem with many real-world 
+	applications, ranging from identifying medical conditions from electroencephalography 
+	(EEG) measurements to forecasting the stock market. The well known Bag-of-Features (BoF) …
+	
+## Forecasting across time series databases using long short-term memory networks on groups of similar series
+**Authors**: K Bandara, C Bergmeir, S Smyl - arXiv preprint arXiv …, 2017 - pdfs.semanticscholar.org
+**Abstract**:	With the advent of Big Data, nowadays in many applications databases containing large quantities of similar time series are available. Forecasting time series in these domains with traditional univariate forecasting procedures leaves great potentials for producing accurate …
+	
+	
+## Deep learning for time series classification: a review
+**Authors**: HI Fawaz, G Forestier, J Weber, L Idoumghar… - Data Mining and …, 2019 - Springer
+**Abstract**:	Abstract Time Series Classification (TSC) is an important and challenging problem in data mining. With the increase of time series data availability, hundreds of TSC algorithms have been proposed. Among these methods, only a few have considered Deep Neural Networks …
+	
+	
+## Effective Representations of Clinical Notes
+**Authors**: S Dubois, N Romano, DC Kale, N Shah… - arXiv preprint arXiv …, 2017 - arxiv.org
+**Abstract**: Clinical notes are a rich source of information about patient state. However, using them to predict clinical events with machine learning models is challenging. They are very high dimensional, sparse and have complex structure. Furthermore, training data is often scarce …
+	
+
+## Transfer learning for clinical time series analysis using recurrent neural networks
+**Authors**: P Gupta, P Malhotra, L Vig, G Shroff - arXiv preprint arXiv:1807.01705, 2018 - arxiv.org
+**Abstract**: Deep neural networks have shown promising results for various clinical prediction tasks such as diagnosis, mortality prediction, predicting duration of stay in hospital, etc. However, training deep networks--such as those based on Recurrent Neural Networks (RNNs) …
+	
+## Machine learning for real-time prediction of complications in critical care: a retrospective study
+**Authors**: A Meyer, D Zverinski, B Pfahringer, J Kempfert… - The Lancet Respiratory …, 2018 - Elsevier
+**Abstract**: Background The large amount of clinical signals in intensive care units can easily overwhelm health-care personnel and can lead to treatment delays, suboptimal care, or clinical errors. The aim of this study was to apply deep machine learning methods to predict …
+
