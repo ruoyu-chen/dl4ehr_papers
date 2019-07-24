@@ -3,195 +3,263 @@
 ## 1. [2019]Guidelines for reinforcement learning in healthcare  
 [论文](Guidelines_for_reinforcement_learning_in_healthcare.pdf)  
 **Authors**: Omer Gottesman1, Fredrik Johansson2, Matthieu Komorowski3,4, Aldo Faisal4, David Sontag2, Finale Doshi-Velez 1 and Leo Anthony Celi3,5  
-**Journal/Conference**: Nature Medicine  
-**Affiliation**: （哈佛大学/MIT）1 Harvard University. 2 MIT. 3 Harvard-MIT Health Sciences & Technology. 4 Imperial College London. 5 Beth Israel Deaconess Medical Center
+**Journal**: Nature Medicine  
+**Affiliation**: （哈佛大学/MIT）1 Harvard University. 2 MIT. 3 Harvard-MIT Health Sciences & Technology. 4 Imperial College London. 5 Beth Israel Deaconess Medical Center.  
+**Abstract**: In this Comment, we provide guidelines for reinforcement learning for decisions about patient treatment that we hope will accelerate the rate at which observational cohorts can inform healthcare practice in a safe, risk-conscious manner.  
 
-## 2. [2019]A guide to deep learning in healthcare  
+## 2. [2019]Multitask learning and benchmarking with clinical time series data
+[论文](Multitask_learning_benchmarking_clinical_time_series_data.pdf)  
+**Authors**: Hrayr Harutyunyan1, Hrant Khachatrian 2,3, David C. Kale1, Greg Ver Steeg1 & aram Galstyan1  
+**Journal**: Nature Scientific Data  
+**Affiliation**: 1 USC Information Sciences Institute. 2 Yerevann, Yerevan, 0025, Armenia. 3 Yerevan State University, Armenia.  
+**Abstract**: text Health care is one of the most exciting frontiers in data mining and machine learning. Successful adoption of electronic health records (EHRs) created an explosion in digital clinical data available for analysis, but progress in machine learning for healthcare research has been difficult to measure because of the absence of publicly available benchmark data sets. To address this problem, we propose four clinical prediction benchmarks using data derived from the publicly available Medical Information Mart for Intensive Care (MIMIC-III) database. These tasks cover a range of clinical problems including modeling risk of mortality, forecasting length of stay, detecting physiologic decline, and phenotype classification. We propose strong linear and neural baselines for all four tasks and evaluate the effect of deep supervision, multitask training and data-specific architectural modifications on the performance of neural models.  
+
+## 3. [2019]Deep Reinforcement Learning for Clinical Decision Support: A Brief Survey
+[论文](DRL4Clinical_Decision_Support_Survey.pdf)  
+**Authors**: Siqi Liu1, Kee Yuan Ngiam2, Mengling Feng1  
+**Preprint**: [arXiv](https://arxiv.org/abs/1907.09475)  
+**Affiliation**: 1 National University of Singapore(新加坡国立大学), 2 National University Hospital(新加坡国立大学附属医院)  
+**Abstract**: Owe to the recent advancements in Artificial Intelligence especially deep learning, many data-driven decision support systems have been implemented to facilitate medical doctors in delivering personalized care. We focus on the deep reinforcement learning (DRL) models in this paper. DRL models have demonstrated human-level or even superior performance in the tasks of computer vision and game playings, such as Go and Atari game. However, the adoption of deep reinforcement learning techniques in clinical decision optimization is still rare. We present the first survey that summarizes reinforcement learning algorithms with Deep Neural Networks (DNN) on clinical decision support. We also discuss some case studies, where different DRL algorithms were applied to address various clinical challenges. We further compare and contrast the advantages and limitations of various DRL algorithms and present a preliminary guide on how to choose the appropriate DRL algorithm for particular clinical applications.  
+
+## 4. [2019]A guide to deep learning in healthcare  
 [论文](A_guide_to_deep_learning_in_healthcare.pdf)  
 **Authors**: Andre Esteva1*, Alexandre Robicquet1, Bharath Ramsundar1, Volodymyr Kuleshov1, Mark DePristo2, Katherine Chou2, Claire Cui2, Greg Corrado2, Sebastian Thrun1 and Jeff Dean2.  
-**Journal/Conference**: Nature Medicine  
-**Affiliation**:  1 Stanford University. 2 **Google Research**. 
+**Journal**: Nature Medicine  
+**Affiliation**:  1 Stanford University. 2 **Google Research**.  
+**Abstract**: Here we present deep-learning techniques for healthcare, centering our discussion on deep learning in computer vision, natural language processing, reinforcement learning, and generalized methods. We describe how these computational techniques can impact a few key areas of medicine and explore how to build end-to-end systems. Our discussion of computer vision focuses largely on medical imaging, and we describe the application of natural language processing to domains such as electronic health record data. Similarly, reinforcement learning is discussed in the context of robotic-assisted surgery, and generalized deep-learning methods for genomics are reviewed.  
 
-## 3. [2019]Effective Medical Test Suggestions Using Deep Reinforcement Learning  
+## 5. [2019]Effective Medical Test Suggestions Using Deep Reinforcement Learning  
 [论文](Effective_Medical_Test_Suggestions.pdf)  
 DRL应用在医学检查的建议上.  
 **Authors**: Yang-En Chen, Kai-Fu Tang, Yu-Shao Peng, Edward Y. Chang(张智威)  
-**Journal/Conference**: preprint, arXiv:1905.12916  
+**Preprint**: [arXiv](https://arxiv.org/abs/1905.12916)  
 **Affiliation**:  HTC Research & Healthcare, Stanford University  
+**Abstract**: Effective medical test suggestions benefit both patients and physicians to conserve time and improve diagnosis accuracy. In this work, we show that an agent can learn to suggest effective medical tests. We formulate the problem as a stage-wise Markov decision process and propose a reinforcement learning method to train the agent. We introduce a new representation of multiple action policy along with the training method of the proposed representation. Furthermore, a new exploration scheme is proposed to accelerate the learning of disease distributions. Our experimental results demonstrate that the accuracy of disease diagnosis can be significantly improved with good medical test suggestions.  
 
-## 4. [2019]Evaluation and accurate diagnoses of pediatric diseases using artificial intelligence  
+## 6. [2019]Evaluation and accurate diagnoses of pediatric diseases using artificial intelligence  
 [论文](Evaluation_accurate_diagnoses_pediatric_diseases.pdf)    
 **Authors**: Huiying Liang1, Brian Y. Tsui2, Hao Ni3, Carolina C. S. Valentim4, Sally L. Baxter2, Guangjian Liu1, Wenjia Cai2, et al.  
-**Journal/Conference**: Nature Medicine  
+**Journal**: Nature Medicine  
 **Affiliation**:  
 1 （广州市妇女儿童医疗中心）Guangzhou Women and Children’s Medical Center, Guangzhou Medical University.   
 2 Institute for Genomic Medicine, Institute of Engineering in Medicine, and Shiley Eye Institute, University of California.  
 3 （杭州依图科技）Hangzhou YITU Healthcare Technology Co. Ltd.  
 4 Department of Thoracic Surgery/Oncology, First Affiliated Hospital of Guangzhou Medical University, China State Key Laboratory and National Clinical Research Center for Respiratory Disease.  
+**Abstract**: Artificial intelligence (AI)-based methods have emerged as powerful tools to transform medical care. Although machine learning classifiers (MLCs) have already demonstrated strong performance in image-based diagnoses, analysis of diverse and massive electronic health record (EHR) data remains chal- lenging. Here, we show that MLCs can query EHRs in a manner similar to the hypothetico-deductive reasoning used by physi- cians and unearth associations that previous statistical meth- ods have not found. Our model applies an automated natural language processing system using deep learning techniques to extract clinically relevant information from EHRs. In total, 101.6 million data points from 1,362,559 pediatric patient visits presenting to a major referral center were analyzed to train and validate the framework. Our model demonstrates high diagnostic accuracy across multiple organ systems and is comparable to experienced pediatricians in diagnosing com- mon childhood diseases. Our study provides a proof of con- cept for implementing an AI-based system as a means to aid physicians in tackling large amounts of data, augmenting diag- nostic evaluations, and to provide clinical decision support in cases of diagnostic uncertainty or complexity. Although this impact may be most evident in areas where healthcare provid- ers are in relative shortage, the benefits of such an AI system are likely to be universal.  
 
-## 5. [2018]Clinical information extraction applications: A literature review  
+## 7. [2019]Deep learning for time series classification: a review
+[论文](Deep_learning4time_series_classification.pdf)  
+**Authors**: Hassan Ismail Fawaz1, Germain Forestier1,2, Jonathan Weber1, Lhassane Idoumghar1, Pierre-Alain Muller1  
+**Journal**: Data Mining and Knowledge Discovery  
+**Affiliation**: 1 IRIMAS, Université Haute Alsace, Mulhouse, France, 2 Faculty of IT, Monash University, Melbourne, Australia  
+**Abstract**: Time Series Classification (TSC) is an important and challenging problem in data mining. With the increase of time series data availability, hundreds of TSC algorithms have been proposed. Among these methods, only a few have considered Deep Neural Networks (DNNs) to perform this task. This is surprising as deep learning has seen very successful applications in the last years. DNNs have indeed revolutionized the field of computer vision especially with the advent of novel deeper architectures such as Residual and Convolutional Neural Networks. Apart from images, sequential data such as text and audio can also be processed with DNNs to reach state-of-the-art performance for document classification and speech recognition. In this article, we study the current state-of-the-art performance of deep learning algorithms for TSC by presenting an empirical study of the most recent DNN architectures for TSC. We give an overview of the most successful deep learning applications in various time series domains under a unified taxonomy of DNNs for TSC. We also provide an open source deep learning framework to the TSC community where we implemented each of the compared approaches and evaluated them on a univariate TSC benchmark (the UCR/UEA archive) and 12 multivariate time series datasets. By training 8730 deep learning models on 97 time series datasets, we propose the most exhaustive study of DNNs for TSC to date.  
+
+## 8. [2019]System and Method for Predicting and Summarizing Medical Events from Electroinc Health Records  
+[专利全文](Google_Patent2019.pdf)  
+**Affiliation**: **Google Inc**  
+**Abstract**: A system for predicting and summarizing medical events from electronic health records includes a computer memory storing aggregated electronic health records from a multitude of patients of diverse age, health conditions, and demographics including medications, laboratory values, diagnoses, vital signs, and medical notes. The aggregated electronic health records are converted into a single standardized data structure format and ordered arrangement per patient, e.g., into a chronological order. A computer (or computer system) executes one or more deep learning models trained on the aggregated health records to predict one or more future clinical events and summarize pertinent past medical events related to the predicted events on an input electronic health record of a patient having the standardized data structure format and ordered into a chronological order. An electronic device configured with a healthcare provider-facing interface displays the predicted one or more future clinical events and the pertinent past medical events of the patient.  
+
+## 9. [2018]Clinical information extraction applications: A literature review  
 [论文](Clinical_information_extraction_applications.pdf)  
 临床信息抽取的应用，综述.  
 **Authors**: Yanshan Wang, Liwei Wang, Majid Rastegar-Mojarad, Sungrim Moon, Feichen Shen, Naveed Afzal, Sijia Liu, Yuqun Zeng1, Saeed Mehrabi2, Sunghwan Sohn, **Hongfang Liu[†]**  
-**Journal/Conference**: Journal of Biomedical Informatics  
+**Journal**: Journal of Biomedical Informatics  
 **Affiliation**:  **Mayo Clinic**, Division of Biomedical Statistics and Informatics / Department of Health Sciences Research  
+**Abstract**: Background: With the rapid adoption of electronic health records (EHRs), it is desirable to harvest information and knowledge from EHRs to support automated systems at the point of care and to enable secondary use of EHRs for clinical and translational research. One critical component used to facilitate the secondary use of EHR data is the information extraction (IE) task, which automatically extracts and encodes clinical information from text.
+              Objectives: In this literature review, we present a review of recent published research on clinical information extraction (IE) applications.
+              Methods: A literature search was conducted for articles published from January 2009 to September 2016 based on Ovid MEDLINE In-Process & Other Non-Indexed Citations, Ovid MEDLINE, Ovid EMBASE, Scopus, Web of Science, and ACM Digital Library.
+              Results: A total of 1917 publications were identified for title and abstract screening. Of these publications, 263 articles were selected and discussed in this review in terms of publication venues and data sources, clinical IE tools, methods, and applications in the areas of disease- and drug-related studies, and clinical workflow optimizations.
+              Conclusions: Clinical IE has been used for a wide range of applications, however, there is a considerable gap between clinical studies using EHR data and studies using clinical IE. This study enabled us to gain a more concrete understanding of the gap and to provide potential solutions to bridge this gap.  
 
-## 6. [2018]Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis  
+## 10. [2018]Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis  
 [论文](Deep_EHR.pdf)  
 深度学习技术在EHR分析中的研究进展，综述.  
 **Authors**: **Benjamin Shickel[†]** , Patrick James Tighe, Azra Bihorac , and Parisa Rashidi  
-**Journal/Conference**: IEEE Journal of Biomedical and Health Informatics  
+**Journal**: IEEE Journal of Biomedical and Health Informatics  
 **Affiliation**: **University of Florida**, Department of Computer and Information Science, Department of Anesthesiology, Department of Nephrology, J. Crayton Pruitt Department of Biomedical Engineering  
+**Abstract**: The past decade has seen an explosion in the amount of digital information stored in electronic health records (EHRs). While primarily designed for archiving pa- tient information and performing administrative healthcare tasks like billing, many researchers have found secondary use of these records for various clinical informatics appli- cations. Over the same period, the machine learning com- munity has seen widespread advances in the field of deep learning. In this review, we survey the current research on applying deep learning to clinical tasks based on EHR data, where we find a variety of deep learning techniques and frameworks being applied to several types of clinical ap- plications including information extraction, representation learning, outcome prediction, phenotyping, and deidentifi- cation. We identify several limitations of current research involving topics such as model interpretability, data hetero- geneity, and lack of universal benchmarks. We conclude by summarizing the state of the field and identifying avenues of future deep EHR research.  
 
-## 7. [2018]Neural Precision Medicine by Mining Implicit Treatment Concepts  
+## 11. [2018]Neural Precision Medicine by Mining Implicit Treatment Concepts  
 [论文](Neural_Precision_Medicine.pdf)  
 **Authors**: Canjia Li, Ben He, Le Sun(孙乐), Yingfei Sun  
-**Journal/Conference**: IEEE International Conference on Bioinformatics and Biomedicine  
+**Conference**: IEEE International Conference on Bioinformatics and Biomedicine  
 **Affiliation**: University of Chinese Academy of Sciences(中科院大学)|Institute of Software, Chinese Academy of Sciences(中科院软件所)  
+**Abstract**: Precision Medicine (PM) is regarded as an informa- tion retrieval (IR) task, in which biomedical articles containing treatment information about specific diseases or genetic variants are retrieved in response to patient record, aiming at providing medical evidence to the point-of-care. In existing PM approaches, manual keywords such as “treatment” and “therapy” are consid- ered direct indicators of treatment information, and are thereby introduced to expand the original query. However, the common medical concepts that are implicitly related to treatment (such as “oncogene”, “tumor”), and differ the relevant documents from the non-relevant ones, are yet to be utilized. To bridge the gap, in this paper, we propose an extension of the state-of-the-art K-NRM neural retrieval model, coined K-NRMPM, to encapsulate the PM solutions within a neural network framework. Specifically, the proposed approach mines a global list of common medical concepts from documents that are judged pertinent to different queries. Thereafter, the mined implicit concepts are incorporated within a neural IR framework to enhance the effectiveness of precision medicine. Experimental results on the standard Text REtrieval Conference (TREC) PM track benchmark confirm the superior performance of the proposed K-NRMPM model.   
 
-## 8. [2018]Scalable and accurate deep learning with electronic health records  
+## 12. [2018]Scalable and accurate deep learning with electronic health records  
 [论文](Scalable_and_accurate.pdf)  
 **Authors**: Alvin Rajkomar 1,2, Eyal Oren1, Kai Chen1, Andrew M. Dai1, Nissan Hajaj1, Michaela Hardt1, Peter J. Liu1, Xiaobing Liu1, Jake Marcus1, Mimi Sun1, Patrik Sundberg1, Hector Yee1, Kun Zhang1, Yi Zhang1, Gerardo Flores1, Gavin E. Duggan1, Jamie Irvine1, Quoc Le1, Kurt Litsch1, Alexander Mossin1, Justin Tansuwan1, De Wang1, James Wexler1, Jimbo Wilson1, Dana Ludwig2, Samuel L. Volchenboum3, Katherine Chou1, Michael Pearson1, Srinivasan Madabushi1, Nigam H. Shah4, Atul J. Butte2, Michael D. Howell1, Claire Cui1, Greg S. Corrado1 and Jeffrey Dean1  
-**Journal/Conference**: Nature, Digital Medicine  
+**Journal**: Nature, Digital Medicine  
 **Affiliation**: 1 **Google Inc**; 2 University of California; 3 University of Chicago Medicine; 4 Stanford University  
+**Abstract**: Predictive modeling with electronic health record (EHR) data is anticipated to drive personalized medicine and improve healthcare quality. Constructing predictive statistical models typically requires extraction of curated predictor variables from normalized EHR data, a labor-intensive process that discards the vast majority of information in each patient’s record. We propose a representation of patients’ entire raw EHR records based on the Fast Healthcare Interoperability Resources (FHIR) format. We demonstrate that deep learning methods using this representation are capable of accurately predicting multiple medical events from multiple centers without site-specific data harmonization. We validated our approach using de-identified EHR data from two US academic medical centers with 216,221 adult patients hospitalized for at least 24 h. In the sequential format we propose, this volume of EHR data unrolled into a total of 46,864,534,945 data points, including clinical notes. Deep learning models achieved high accuracy for tasks such as predicting: in-hospital mortality (area under the receiver operator curve [AUROC] across sites 0.93–0.94), 30-day unplanned readmission (AUROC 0.75–0.76), prolonged length of stay (AUROC 0.85–0.86), and all of a patient’s final discharge diagnoses (frequency-weighted AUROC 0.90). These models outperformed traditional, clinically-used predictive models in all cases. We believe that this approach can be used to create accurate and scalable predictions for a variety of clinical scenarios. In a case study of a particular prediction, we demonstrate that neural networks can be used to identify relevant information from the patient’s chart.  
 
-## 9. [2018]Improving Clinical Predictions through Unsupervised Time Series Representation Learning  
+## 13. [2018]Improving Clinical Predictions through Unsupervised Time Series Representation Learning  
 [论文](Improving_Clinical_Predictions.pdf)  
 **Authors**: Xinrui Lyu, Matthias Hüser, Stephanie L. Hyland, George Zerveas * , Gunnar Rätsch  
-**Journal/Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
+**Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Biomedical Informatics Group, Dept. of Computer Science, **ETH Zürich**;  * AI Lab, Center for Biomedical Informatics, **Brown University**  
+**Abstract**: In this work, we investigate unsupervised representation learning on medical time series, which bears the promise of leveraging copious amounts of existing unlabeled data in order to eventually assist clinical decision making. By evaluating on the prediction of clinically relevant outcomes, we show that in a practical setting, unsupervised representation learning can offer clear performance benefits over end- to-end supervised architectures. We experiment with using sequence-to-sequence (Seq2Seq) models in two different ways, as an autoencoder and as a forecaster, and show that the best performance is achieved by a forecasting Seq2Seq model with an integrated attention mechanism, proposed here for the first time in the setting of unsupervised learning for medical time series.  
 
-## 10. [2018]Application of Clinical Concept Embeddings for Heart Failure Prediction in UK EHR data  
+## 14. [2018]Application of Clinical Concept Embeddings for Heart Failure Prediction in UK EHR data  
 [论文](Application_Clinical_Concept_Embeddings4HF.pdf).  
 **Authors**: Spiros Denaxas, Pontus Stenetorp*, Sebastian Riedel*, Maria Pikoula, Richard Dobson, Harry Hemingway  
-**Journal/Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
+**Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Institute of Health Informatics|*Department of Computer Science, University College London  
+**Abstract**: Electronic health records (EHR) are increasingly being used for constructing dis- ease risk prediction models. Feature engineering in EHR data however is challeng- ing due to their highly dimensional and heterogeneous nature. Low-dimensional representations of EHR data can potentially mitigate these challenges. In this paper, we use global vectors (GloVe) to learn word embeddings for diagnoses and proce- dures recorded using 13 million ontology terms across 2.7 million hospitalisations in national UK EHR. We demonstrate the utility of these embeddings by evalu- ating their performance in identifying patients which are at higher risk of being hospitalized for congestive heart failure. Our findings indicate that embeddings can enable the creation of robust EHR-derived disease risk prediction models and address some the limitations associated with manual clinical feature engineering.  
 
-## 11. [2018]Unsupervised Pseudo-Labeling for Extractive Summarization on Electronic Health Records  
+## 15. [2018]Unsupervised Pseudo-Labeling for Extractive Summarization on Electronic Health Records  
 [论文](Unsupervised_Pseudo-Labeling_Extractive_Summarization.pdf)  
 **Authors**: Xiangan Liu, Keyang Xu, Pengtao Xie, Eric Xing  
-**Journal/Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
+**Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Petuum Inc.(CMU)  
+**Abstract**: Extractive summarization is very useful for physicians to better manage and digest Electronic Health Records (EHRs). However, the training of a supervised model requires disease-specific medical background and is thus very expensive. We studied how to utilize the intrinsic correlation between multiple EHRs to generate pseudo-labels and train a supervised model with no external annotation. Exper- iments on real-patient data validate that our model is effective in summarizing crucial disease-specific information for patients.  
 
-## 12. [2018]Machine Learning on Electronic Health Records: Models and Features Usages to predict Medication Non-Adherence  
+
+## 16. [2018]Machine Learning on Electronic Health Records: Models and Features Usages to predict Medication Non-Adherence  
 [论文](Models_Features_Usages_predict_Medication_Non-Adherence.pdf)  
 **Authors**: Thomas Janssoone1, Clémence Bic1, Dorra Kanoun2, Pierre Hornus1, Pierre Rinder1  
-**Journal/Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
-**Affiliation**: 1)Semeia, Paris, France; 2)Institut Pasteur(巴斯德研究院), Paris, France.  
+**Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
+**Affiliation**: 1)Semeia, Paris, France(法国的一家初创公司); 2)Institut Pasteur(巴斯德研究院), Paris, France.  
+**Abstract**: Adherence can be defined as "the extent to which patients take their medications as prescribed by their healthcare providers"[Osterberg and Blaschke, 2005]. World Health Organization’s reports2 point out that, in developed countries, only about 50% of patients with chronic diseases correctly follow their treatments. This severely compromises the efficiency of long-term therapy and increases the cost of health services. We propose in this paper different models of patient drug consumption in breast cancer treatments. The aim of these different approaches is to predict medication non-adherence while giving insights to doctors of the underlying reasons of these illegitimate drop-outs. Working with oncologists, we show the interest of Machine- Learning algorithms fined tune by the feedback of experts to estimate a risk score of a patient’s non-adherence and thus improve support throughout their care path.  
 
-Sêmeia is a French startup. We develop pragmatic and personalised patient programs. Our team is made up of health experts, developers, and data scientists.  
-
-## 13. [2018]Opportunities and challenges in developing deep learning models using electronic health records data: a systematic review  
+## 17. [2018]Opportunities and challenges in developing deep learning models using electronic health records data: a systematic review  
 [论文](Opportunities_and_challenges.pdf)  
 **Authors**: Cao Xiao1,  Edward Choi2,  **Jimeng Sun[†]** 2  
-**Journal/Conference**: **JAMIA**, Journal of the American Medical Informatics Association  
+**Journal**: **JAMIA**, Journal of the American Medical Informatics Association  
 **Affiliation**: 1 AI for Healthcare, **IBM Research**, 2 School of Computational Science and Engineering, **Georgia Institute of Technology**  
+**Abstract**: Objective: To conduct a systematic review of deep learning models for electronic health record (EHR) data, and illustrate various deep learning architectures for analyzing different data sources and their target applications. We also highlight ongoing research and identify open challenges in building deep learning models of EHRs. Design/method: We searched PubMed and Google Scholar for papers on deep learning studies using EHR data published between January 1, 2010, and January 31, 2018. We summarize them according to these axes: types of analytics tasks, types of deep learning model architectures, special challenges arising from health data and tasks and their potential solutions, as well as evaluation strategies.
+              Results: We surveyed and analyzed multiple aspects of the 98 articles we found and identified the following an- alytics tasks: disease detection/classification, sequential prediction of clinical events, concept embedding, data augmentation, and EHR data privacy. We then studied how deep architectures were applied to these tasks. We also discussed some special challenges arising from modeling EHR data and reviewed a few popular approaches. Finally, we summarized how performance evaluations were conducted for each task.
+              Discussion: Despite the early success in using deep learning for health analytics applications, there still exist a number of issues to be addressed. We discuss them in detail including data and label availability, the interpret- ability and transparency of the model, and ease of deployment.  
 
+## 18. [2018]Recurrent Neural Networks for Multivariate Time Series with Missing Values  
+[论文](RNN4Multivariate_Time_Series_with_Missing_Values.pdf)  
+**Authors**: Zhengping Che 1, Sanjay Purushotham 1, Kyunghyun Cho 2, David Sontag 3 & Yan Liu1  
+**Journal**: Nature Scientific Reports  
+**Affiliation**: 1 University of Southern California, Department of Computer Science. 2 New York University, Department of Computer Science. 3 Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science  
+**Abstract**: Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. In time series prediction and other related tasks, it has been noted that missing values and their missing patterns are often correlated with the target labels, a.k.a., informative missingness. There is very limited work on exploiting the missing patterns for effective imputation and improving prediction performance. In this paper, we develop novel deep learning models, namely GRU-D, as one of the early attempts. GRU-D is based on Gated Recurrent Unit (GRU), a state-of-the-art recurrent neural network. It takes two representations of missing patterns, i.e., masking and time interval, and effectively incorporates them into a deep model architecture so that it not only captures the long-term temporal dependencies in time series, but also utilizes the missing patterns to achieve better prediction results. Experiments of time series classification tasks on real-world clinical datasets (MIMIC-III, PhysioNet) and synthetic datasets demonstrate that our models achieve state-of-the-art performance and provide useful insights for better understanding and utilization of missing values in time series analysis.  
 
-## 14. [2017]Deep reinforcement learning for automated radiation adaptation in lung cancer  
+## 19. [2018]Transfer learning for clinical time series analysis using recurrent neural networks
+[论文](Transfer_Learning_for_Clinical_Time_Series_Analysis.pdf)  
+**Authors**: Priyanka Gupta, Pankaj Malhotra, Lovekesh Vig, Gautam Shroff  
+**Conference**: 2018 KDD Workshop on Machine Learning for Medicine and Healthcare  
+**Affiliation**:TCS Research, New Delhi, India(塔塔咨询服务公司研究院)  
+**Abstract**: Deep neural networks have shown promising results for various clinical prediction tasks such as diagnosis, mortality prediction, predicting duration of stay in hospital, etc. However, training deep networks -- such as those based on Recurrent Neural Networks (RNNs) -- requires large labeled data, high computational resources, and significant hyperparameter tuning effort. In this work, we investigate as to what extent can transfer learning address these issues when using deep RNNs to model multivariate clinical time series. We consider transferring the knowledge captured in an RNN trained on several source tasks simultaneously using a large labeled dataset to build the model for a target task with limited labeled data. An RNN pre-trained on several tasks provides generic features, which are then used to build simpler linear models for new target tasks without training task-specific RNNs. For evaluation, we train a deep RNN to identify several patient phenotypes on time series from MIMIC-III database, and then use the features extracted using that RNN to build classifiers for identifying previously unseen phenotypes, and also for a seemingly unrelated task of in-hospital mortality. We demonstrate that (i) models trained on features extracted using pre-trained RNN outperform or, in the worst case, perform as well as task-specific RNNs; (ii) the models using features from pre-trained models are more robust to the size of labeled data than task-specific RNNs; and (iii) features extracted using pre-trained RNN are generic enough and perform better than typical statistical hand-crafted features.  
+
+## 20. [2018]Machine learning for real-time prediction of complications in critical care: a retrospective study
+[论文](Machine_learning4real-time_prediction_complications.pdf)  
+**Authors**: Meyer A1, Zverinski D1, Pfahringer B1, Kempfert J1, Kuehne T2, Sündermann SH1, Stamm C1, Hofmann T3, Falk V1, Eickhoff C3.  
+**Journal**: The Lancet, Respiratory Medicine  
+**Affiliation**: 1 Department of Cardiothoracic and Vascular Surgery, Deutsches Herzzentrum Berlin, 2 Institute of Imaging Science and Computational Modelling, Charité - Universitätsmedizin Berlin, 3 Department of Computer Science, ETH Zurich  
+**Abstract**: Background: The large amount of clinical signals in intensive care units can easily overwhelm health-care personnel and can lead to treatment delays, suboptimal care, or clinical errors. The aim of this study was to apply deep machine learning methods to predict severe complications during critical care in real time after cardiothoracic surgery.              
+              Methods: We used deep learning methods (recurrent neural networks) to predict several severe complications (mortality, renal failure with a need for renal replacement therapy, and postoperative bleeding leading to operative revision) in post cardiosurgical care in real time. Adult patients who underwent major open heart surgery from Jan 1, 2000, to Dec 31, 2016, in a German tertiary care centre for cardiovascular diseases formed the main derivation dataset. We measured the accuracy and timeliness of the deep learning model's forecasts and compared predictive quality to that of established standard-of-care clinical reference tools (clinical rule for postoperative bleeding, Simplified Acute Physiology Score II for mortality, and the Kidney Disease: Improving Global Outcomes staging criteria for acute renal failure) using positive predictive value (PPV), negative predictive value, sensitivity, specificity, area under the curve (AUC), and the F1 measure (which computes a harmonic mean of sensitivity and PPV). Results were externally retrospectively validated with 5898 cases from the published MIMIC-III dataset.
+              Findings: Of 47 559 intensive care admissions (corresponding to 42 007 patients), we included 11 492 (corresponding to 9269 patients). The deep learning models yielded accurate predictions with the following PPV and sensitivity scores: PPV 0·90 and sensitivity 0·85 for mortality, 0·87 and 0·94 for renal failure, and 0·84 and 0·74 for bleeding. The predictions significantly outperformed the standard clinical reference tools, improving the absolute complication prediction AUC by 0·29 (95% CI 0·23–0·35) for bleeding, by 0·24 (0·19–0·29) for mortality, and by 0·24 (0·13–0·35) for renal failure (p<0·0001 for all three analyses). The deep learning methods showed accurate predictions immediately after patient admission to the intensive care unit. We also observed an increase in performance in our validation cohort when the machine learning approach was tested against clinical reference tools, with absolute improvements in AUC of 0·09 (95% CI 0·03–0·15; p=0·0026) for bleeding, of 0·18 (0·07–0·29; p=0·0013) for mortality, and of 0·25 (0·18–0·32; p<0·0001) for renal failure.
+              Interpretation: The observed improvements in prediction for all three investigated clinical outcomes have the potential to improve critical care. These findings are noteworthy in that they use routinely collected clinical data exclusively, without the need for any manual processing. The deep machine learning method showed AUC scores that significantly surpass those of clinical reference tools, especially soon after admission. Taken together, these properties are encouraging for prospective deployment in critical care settings to direct the staff's attention towards patients who are most at risk.  
+
+## 21. [2017]Deep reinforcement learning for automated radiation adaptation in lung cancer  
 [论文](Deep_reinforcement_learning4automated_radiation.pdf)  
 **Authors**: Huan-Hsin Tseng, Yi Luo, Sunan Cui, Jen-Tzung Chien*, Randall K. Ten Haken, and **Issam El Naqa[†]**  
-**Journal/Conference**: Medical Physics  
+**Journal**: Medical Physics  
 **Affiliation**: **University of Michigan**, Department of Radiation Oncology; * Department of Electrical and Computer Engineering, National Chiao Tung University, Hsinchu, Taiwan(台湾清华大学)  
+**Abstract**: Purpose: To investigate deep reinforcement learning (DRL) based on historical treatment plans for developing automated radiation adaptation protocols for nonsmall cell lung cancer (NSCLC) patients that aim to maximize tumor local control at reduced rates of radiation pneumonitis grade 2 (RP2). Methods: In a retrospective population of 114 NSCLC patients who received radiotherapy, a three- component neural networks framework was developed for deep reinforcement learning (DRL) of dose fractionation adaptation. Large-scale patient characteristics included clinical, genetic, and imag- ing radiomics features in addition to tumor and lung dosimetric variables. First, a generative adversar- ial network (GAN) was employed to learn patient population characteristics necessary for DRL training from a relatively limited sample size. Second, a radiotherapy artificial environment (RAE) was reconstructed by a deep neural network (DNN) utilizing both original and synthetic data (by GAN) to estimate the transition probabilities for adaptation of personalized radiotherapy patients’ treatment courses. Third, a deep Q-network (DQN) was applied to the RAE for choosing the optimal dose in a response-adapted treatment setting. This multicomponent reinforcement learning approach was benchmarked against real clinical decisions that were applied in an adaptive dose escalation clin- ical protocol. In which, 34 patients were treated based on avid PET signal in the tumor and con- strained by a 17.2% normal tissue complication probability (NTCP) limit for RP2. The uncomplicated cure probability (P+) was used as a baseline reward function in the DRL.
+              Results: Taking our adaptive dose escalation protocol as a blueprint for the proposed DRL (GAN + RAE + DQN) architecture, we obtained an automated dose adaptation estimate for use at $ 2/3 of the way into the radiotherapy treatment course. By letting the DQN component freely con- trol the estimated adaptive dose per fraction (ranging from 1–5 Gy), the DRL automatically favored dose escalation/de-escalation between 1.5 and 3.8 Gy, a range similar to that used in the clinical pro- tocol. The same DQN yielded two patterns of dose escalation for the 34 test patients, but with differ- ent reward variants. First, using the baseline P+ reward function, individual adaptive fraction doses of the DQN had similar tendencies to the clinical data with an RMSE = 0.76 Gy; but adaptations suggested by the DQN were generally lower in magnitude (less aggressive). Second, by adjusting the P+ reward function with higher emphasis on mitigating local failure, better matching of doses between the DQN and the clinical protocol was achieved with an RMSE = 0.5 Gy. Moreover, the decisions selected by the DQN seemed to have better concordance with patients eventual outcomes. In comparison, the traditional temporal difference (TD) algorithm for reinforcement learning yielded
+              an RMSE = 3.3 Gy due to numerical instabilities and lack of sufficient learning.
+              Conclusion: We demonstrated that automated dose adaptation by DRL is a feasible and a promising approach for achieving similar results to those chosen by clinicians. The process may require cus- tomization of the reward function if individual cases were to be considered. However, development of this framework into a fully credible autonomous system for clinical decision support would require further validation on larger multi-institutional datasets. © 2017 American Association of Physicists in Medicine [https://doi.org/10.1002/mp.12625]  
 
-## 15. [2017]Clinical Intervention Prediction and Understanding with Deep Neural Networks  
+## 22. [2017]Clinical Intervention Prediction and Understanding with Deep Neural Networks  
 [论文](Clinical_Intervention_Prediction.pdf)  
 **Authors**: Harini Suresh, Nathan Hunt, Alistair Johnson, Leo Anthony Celi, Peter Szolovits, Marzyeh Ghassemi  
-**Journal/Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
+**Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
 **Affiliation**: **MIT**, Computer Science and Artificial Intelligence Lab, Laboratory for Computational Physiology  
+**Abstract**: Real-time prediction of clinical interventions remains a challenge within intensive care units (ICUs). This task is complicated by data sources that are sparse, noisy, heterogeneous and outcomes that are imbalanced. In this work, we integrate data across many ICU sources — vitals, labs, notes, demo- graphics — and focus on learning rich representations of this data to predict onset and weaning of multiple invasive interventions. In particular, we compare both long short-term memory networks (LSTM) and convolutional neural networks (CNN) for prediction of five intervention tasks: in- vasive ventilation, non-invasive ventilation, vasopressors, colloid boluses, and crystalloid boluses. Our predictions are done in a forward-facing manner after a six hour gap time to support clinically actionable planning. We achieve state-of-the-art results on these predictive tasks using deep archi- tectures. Further, we explore the use of feature occlusion to interpret LSTM models, and compare this to the interpretability gained from examining inputs that maximally activate CNN outputs. We show that our models are able to significantly outperform baselines for intervention prediction, and provide insight into model learning.  
 
-## 16. [2017]Predicting Medications from Diagnostic Codes with Recurrent Neural Networks  
+## 23. [2017]Predicting Medications from Diagnostic Codes with Recurrent Neural Networks  
 [论文](Predicting_Medications_from_Diagnostic_Codes.pdf)  
 **Authors**: Jacek M. Bajor, Thomas A. Lasko  
-**Journal/Conference**: **ICLR**,  International Conference on Learning Representations  
+**Conference**: **ICLR**,  International Conference on Learning Representations  
 **Affiliation**: **Vanderbilt University School of Medicine**, Department of Biomedical Informatics  
+**Abstract**: It is a surprising fact that electronic medical records are failing at one of their pri- mary purposes, that of tracking the set of medications that the patient is actively taking. Studies estimate that up to 50% of such lists omit active drugs, and that up to 25% of all active medications do not appear on the appropriate patient list. Manual efforts to maintain these lists involve a great deal of tedious human labor, which could be reduced by computational tools to suggest likely missing or in- correct medications on a patient’s list. We report here an application of recurrent neural networks to predict the likely therapeutic classes of medications that a pa- tient is taking, given a sequence of the last 100 billing codes in their record. Our best model was a GRU that achieved high prediction accuracy (micro-averaged AUC 0.93, Label Ranking Loss 0.076), limited by hardware constraints on model size. Additionally, examining individual cases revealed that many of the predic- tions marked incorrect were likely to be examples of either omitted medications or omitted billing codes, supporting our assertion of a substantial number of er- rors and omissions in the data, and the likelihood of models such as these to help correct them.  
 
-## 17. [2016]Real-time prediction of mortality, readmission, and length of stay using electronic health record data  
+## 24. [2017]An Improved Multi-Output Gaussian Process RNN with Real-Time Validation for Early Sepsis Detection
+[论文](An_Improved_Multi-Output_Gaussian_Process_RNN_with_Real-Time_Validation.pdf)  
+**Authors**: Joseph Futoma1, Sanjay Hariharan1, Katherine Heller1, Mark Sendak2, Nathan Brajer2, Meredith Clement3, Armando Bedoya3, Cara O’Brien3
+**Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
+**Affiliation**: Duke University, 1 Department of Statistical Science, 2 Institute for Health Innovation, 3 Department of Medicine    
+**Abstract**: Sepsis is a poorly understood and potentially life-threatening complication that can occur as a result of infection. Early detection and treatmenz improves patient outcomes, and as such it poses an important challenge in medicine. In this work, we develop a flexible classifier that leverages streaming lab results, vitals, and medications to predict sepsis before it occurs. We model patient clinical time series with multi-output Gaussian processes, maintaining uncertainty about the physiological state of a patient while also imputing missing values. The mean function takes into account the effects of medications administered on the trajectories of the physiological variables. Latent function values from the Gaussian process are then fed into a deep recurrent neural network to classify patient encounters as septic or not, and the overall model is trained end-to-end using back-propagation. We train and validate our model on a large dataset of 18 months of heterogeneous inpatient stays from the Duke University Health System, and develop a new “real-time” validation scheme for simulat-ing the performance of our model as it will actually be used. Our proposed method substantially outperforms clinical baselines, and improves on a previous related model for detecting sepsis. Our model’s predictions will be displayed in a real-time analytics dashboard to be used by a sepsis rapid response team to help detect and improve treatment of sepsis.  
+
+## 25. [2017]Time-series classification using neural Bag-of-Features
+[论文](Time-series_Classification_Using_Neural_Bag-of-Features.pdf)  
+**Authors**: Nikolaos Passalis1, Avraam Tsantekidis1, Anastasios Tefas1, Juho Kanniainen2, Moncef Gabbouj2 and Alexandros Iosifidis2,3  
+**Conference**: 2017 25th European Signal Processing Conference (EUSIPCO)  
+**Affiliation**: Aristotle University of Thessaloniki(希腊，塞萨洛尼基亚里士多德大学), 2 Tampere University of Technology(芬兰，坦佩雷理工大学), 3 Aarhus University(丹麦, 奥胡斯大学)  
+**Abstract**: Classification of time-series data is a challenging problem with many real-world applications, ranging from identifying medical conditions from electroencephalography (EEG) measurements to forecasting the stock market. The well known Bag-of-Features (BoF) model was recently adapted towards time-series representation. In this work, a neural generalization of the BoF model, composed of an RBF layer and an accumulation layer, is proposed as a neural layer that receives the features extracted from a time-series and gradually builds its representation. The proposed method can be combined with any other layer or classifier, such as fully connected layers or feature transformation layers, to form deep neural networks for time-series classification. The resulting networks are end-to-end differentiable and they can be trained using regular back-propagation. It is demonstrated, using two time-series datasets, including a large-scale financial dataset, that the proposed approach can significantly increase the classification metrics over other baseline and state-of-the-art techniques.  
+
+## 26. [2017]Effective Representations of Clinical Notes
+[论文](Effective_Representations_of_Clinical_Notes.pdf)  
+**Authors**: Sebastien Dubois1, Nathanael Romano1, David C. Kale2, Nigam Shah1, Kenneth Jung1  
+**Preprint**: [arXiv](https://arxiv.org/abs/1705.07025)  
+**Affiliation**: 1 Stanford Center for Biomedical Informatics Research, 2 USC Information Sciences Institute, University of Southern California  
+**Abstract**: Clinical notes are a rich source of information about patient state. However, using them to predict clinical events with machine learning models is challenging. They are very high dimensional, sparse and have complex structure. Furthermore, training data is often scarce because it is expensive to obtain reliable labels for many clinical events. These difficulties have traditionally been addressed by manual feature engineering encoding task specific domain knowledge. We explored the use of neural networks and transfer learning to learn representations of clinical notes that are useful for predicting future clinical events of interest, such as all causes mortality, inpatient admissions, and emergency room visits. Our data comprised 2.7 million notes and 115 thousand patients at Stanford Hospital. We used the learned representations, along with commonly used bag of words and topic model representations, as features for predictive models of clinical events. We evaluated the effectiveness of these representations with respect to the performance of the models trained on small datasets. Models using the neural network derived representations performed significantly better than models using the baseline representations with small (N<1000) training datasets. The learned representations offer significant performance gains over commonly used baseline representations for a range of predictive modeling tasks and cohort sizes, offering an effective alternative to task specific feature engineering when plentiful labeled training data is not available.  
+
+## 27. [2017]Forecasting Across Time Series Databases using Recurrent Neural Networks on Groups of Similar Series: A Clustering Approach
+[论文](Forecasting_Across_Time_Series_Databases_RNN.pdf)  
+**Authors**: Kasun Bandara1, Christoph Bergmeir1, Slawek Smyl2  
+**Preprint**: [arXiv](https://arxiv.org/abs/1710.03222)  
+**Affiliation**: 1 Faculty of Information Technology, Monash University, 2 Uber Technologies Inc, San Francisco  
+**Abstract**: With the advent of Big Data, nowadays in many applications databases containing large quantities of similar time series are available. Forecasting time series in these domains with traditional univariate forecasting procedures leaves great potentials for producing accurate forecasts untapped. Recurrent neural networks (RNNs), and in particular Long Short-Term Memory (LSTM) networks, have proven recently that they are able to outperform state-of-the-art univariate time series forecasting methods in this context when trained across all available time series. However, if the time series database is heterogeneous, accuracy may degenerate, so that on the way towards fully automatic forecasting methods in this space, a notion of similarity between the time series needs to be built into the methods. To this end, we present a prediction model that can be used with different types of RNN models on subgroups of similar time series, which are identified by time series clustering techniques. We assess our proposed methodology using LSTM networks, a widely popular RNN variant. Our method achieves competitive results on benchmarking datasets under competition evaluation procedures. In particular, in terms of mean sMAPE accuracy, it consistently outperforms the baseline LSTM model and outperforms all other methods on the CIF2016 forecasting competition dataset.  
+
+
+## 28. [2016]Real-time prediction of mortality, readmission, and length of stay using electronic health record data  
 [论文](Real-time_prediction_of_mortality.pdf)  
 **Authors**: Xiongcai Cai1, Oscar Perez-Concha2, Enrico Coiera2, Fernando Martin-Sanchez3, Richard Day4, David Roffe5,  **Blanca Gallego[†]** 2  
-**Journal/Conference**: **JAMIA**  
+**Journal**: **JAMIA**  
 **Affiliation**: [澳大利亚]1 School of Computer Science and Engineering, The University of New South Wales, 2 Centre of Health Informatics, AIHI, Macquarie University, 3 Melbourne School of Information, The University of Melbourne, 4 School of Medical Sciences, The University of New South Wales, 5 Information Technology Service Centre, St Vincent’s Hospital.   
+**Abstract**: Objective To develop a predictive model for real-time predictions of length of stay, mortality, and readmission for hospitalized patients using elec- tronic health records (EHRs).
+              Materials and Methods A Bayesian Network model was built to estimate the probability of a hospitalized patient being “at home,” in the hospital, or dead for each of the next 7 days. The network utilizes patient-specific administrative and laboratory data and is updated each time a new pa- thology test result becomes available. Electronic health records from 32 634 patients admitted to a Sydney metropolitan hospital via the emergency department from July 2008 through December 2011 were used. The model was tested on 2011 data and trained on the data of earlier years. Results The model achieved an average daily accuracy of 80% and area under the receiving operating characteristic curve (AUROC) of 0.82. The model’s predictive ability was highest within 24 hours from prediction (AUROC 1⁄4 0.83) and decreased slightly with time. Death was the most pre- dictable outcome with a daily average accuracy of 93% and AUROC of 0.84.
+              Discussion We developed the first non–disease-specific model that simultaneously predicts remaining days of hospitalization, death, and readmis- sion as part of the same outcome. By providing a future daily probability for each outcome class, we enable the visualization of future patient tra- jectories. Among these, it is possible to identify trajectories indicating expected discharge, expected continuing hospitalization, expected death, and possible readmission.
+              Conclusions Bayesian Networks can model EHRs to provide real-time forecasts for patient outcomes, which provide richer information than tradi- tional independent point predictions of length of stay, death, or readmission, and can thus better support decision making.  
 
-## 18. [2016]Using recurrent neural network models for early detection of heart failure onset  
+## 29. [2016]Using recurrent neural network models for early detection of heart failure onset  
 [论文](Using_RNN_for_early_detection_of_HF.pdf)  
 **Authors**: Edward Choi,1 Andy Schuetz,2 Walter F Stewart,2 and **Jimeng Sun[†]** 1  
-**Journal/Conference**: **JAMIA**  
+**Journal**: **JAMIA**  
 **Affiliation**: 1 Georgia Institute of Technology, 2 Sutter Health  
+**Abstract**: Objective: We explored whether use of deep learning to model temporal relations among events in electronic health records (EHRs) would improve model performance in predicting initial diagnosis of heart failure (HF) compared to conventional methods that ignore temporality.
+              Materials and Methods: Data were from a health system’s EHR on 3884 incident HF cases and 28 903 controls, identified as primary care patients, between May 16, 2000, and May 23, 2013. Recurrent neural network (RNN) models using gated recurrent units (GRUs) were adapted to detect relations among time-stamped events (eg, disease diagnosis, medication orders, procedure orders, etc.) with a 12- to 18-month observation window of cases and controls. Model performance metrics were compared to regularized logistic regression, neural net- work, support vector machine, and K-nearest neighbor classifier approaches.
+              Results: Using a 12-month observation window, the area under the curve (AUC) for the RNN model was 0.777, compared to AUCs for logistic regression (0.747), multilayer perceptron (MLP) with 1 hidden layer (0.765), sup- port vector machine (SVM) (0.743), and K-nearest neighbor (KNN) (0.730). When using an 18-month observation window, the AUC for the RNN model increased to 0.883 and was significantly higher than the 0.834 AUC for the best of the baseline methods (MLP).
+              Conclusion: Deep learning models adapted to leverage temporal relations appear to improve performance of models for detection of incident heart failure with a short observation window of 12–18 months.  
 
-## 19. [2016]Multi-layer Representation Learning for Medical Concepts  
+## 30. [2016]Multi-layer Representation Learning for Medical Concepts  
 [论文](Multi-layer_Representation_Learning.pdf)  
 **Authors**: Edward Choi1, Mohammad Taha Bahadori1, Elizabeth Searles2, Catherine Coffey2, Michael Thompson2, James Bost2, Javier Tejedor-Sojo2, **Jimeng Sun**1  
-**Journal/Conference**: **KDD**, ACM SIGKDD International Conference on Knowledge Discovery and Data Mining  
+**Conference**: **KDD**, ACM SIGKDD International Conference on Knowledge Discovery and Data Mining  
 **Affiliation**: 1 Georgia Institute of Technology, 2 Children’s Healthcare of Atlanta  
+**Abstract**: Proper representations of medical concepts such as diagno- sis, medication, procedure codes and visits from Electronic Health Records (EHR) has broad applications in healthcare analytics. Patient EHR data consists of a sequence of visits over time, where each visit includes multiple medical con- cepts, e.g., diagnosis, procedure, and medication codes. This hierarchical structure provides two types of relational infor- mation, namely sequential order of visits and co-occurrence of the codes within a visit. In this work, we propose Med2Vec, which not only learns the representations for both medical codes and visits from large EHR datasets with over million visits, but also allows us to interpret the learned representa- tions confirmed positively by clinical experts. In the experi- ments, Med2Vec shows significant improvement in prediction accuracy in clinical applications compared to baselines such as Skip-gram, GloVe, and stacked autoencoder, while pro- viding clinically meaningful interpretation.  
 
-## 20. [2016]Learning to diagnose with LSTM recurrent neural networks  
+## 31. [2016]Learning to diagnose with LSTM recurrent neural networks  
 [论文](Learning_to_diagnose_with_LSTM.pdf)  
 **Authors**: Zachary C. Lipton 1, David C. Kale 2, Charles Elkan 1, Randall Wetzel 3  
-**Journal/Conference**: **ICLR**, International Conference on Learning Representations  
+**Conference**: **ICLR**, International Conference on Learning Representations  
 **Affiliation**: 1 University of California, Department of Computer Science and Engineering, 2 University of Southern California, Department of Computer Science,3 Children’s Hospital Los Angeles   
+**Abstract**: Clinical medical data, especially in the intensive care unit (ICU), consist of multi- variate time series of observations. For each patient visit (or episode), sensor data and lab test results are recorded in the patient’s Electronic Health Record (EHR). While potentially containing a wealth of insights, the data is difficult to mine effectively, owing to varying length, irregular sampling and missing data. Recur- rent Neural Networks (RNNs), particularly those using Long Short-Term Memory (LSTM) hidden units, are powerful and increasingly popular models for learning from sequence data. They effectively model varying length sequences and capture long range dependencies. We present the first study to empirically evaluate the ability of LSTMs to recognize patterns in multivariate time series of clinical mea- surements. Specifically, we consider multilabel classification of diagnoses, train- ing a model to classify 128 diagnoses given 13 frequently but irregularly sampled clinical measurements. First, we establish the effectiveness of a simple LSTM network for modeling clinical data. Then we demonstrate a straightforward and effective training strategy in which we replicate targets at each sequence step. Trained only on raw time series, our models outperform several strong baselines, including a multilayer perceptron trained on hand-engineered features.  
 
-## 21. [2016]Deep patient: an unsupervised representation to predict the future of patients from the electronic health records  
+## 32. [2016]Deep patient: an unsupervised representation to predict the future of patients from the electronic health records  
 [论文](Deep_patient.pdf)  
 **Authors**: Riccardo Miotto1,2,3, Li Li1,2,3, Brian A. Kidd1,2,3, **Joel T. Dudley[†]** 1,2,3  
-**Journal/Conference**: Nature, Scientific Reports  
+**Journal**: Nature, Scientific Reports  
 **Affiliation**: **Icahn School of Medicine at Mount Sinai**, 1Department of Genetics and Genomic Sciences, 2 Harris Center for Precision Wellness, 3 Icahn Institute for Genomics and Multiscale Biology  
+**Abstract**: Secondary use of electronic health records (EHRs) promises to advance clinical research and better inform clinical decision making. Challenges in summarizing and representing patient data prevent widespread practice of predictive modeling using EHRs. Here we present a novel unsupervised deep feature learning method to derive a general-purpose patient representation from EHR data that facilitates clinical predictive modeling. In particular, a three-layer stack of denoising autoencoders was used to capture hierarchical regularities and dependencies in the aggregated EHRs of about 700,000 patients from the Mount Sinai data warehouse. The result is a representation we name “deep patient”. We evaluated this representation as broadly predictive of health states by assessing the probability of patients to develop various diseases. We performed evaluation using 76,214 test patients comprising 78 diseases from diverse clinical domains and temporal windows. Our results significantly outperformed those achieved using representations based on raw EHR data and alternative feature learning strategies. Prediction performance for severe diabetes, schizophrenia, and various cancers were among the top performing. These findings indicate that deep learning applied to EHRs can derive patient representations that offer improved clinical predictions, and could provide a machine learning framework for augmenting clinical decision systems.  
 
-## 22. [2016]Doctor AI: Predicting Clinical Events via Recurrent Neural Networks  
+## 33. [2016]Doctor AI: Predicting Clinical Events via Recurrent Neural Networks  
 [论文](Doctor_AI.pdf)  
 **Authors**: Edward Choi, Mohammad Taha Bahadori, Andy Schuetz, Walter F. Stewart, **Jimeng Sun**  
-**Journal/Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
+**Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
 **Affiliation**: College of Computing, **Georgia Institute of Technology**| Research Development & Dissemination, **Sutter Health**  
+**Abstract**: Leveraging large historical data in electronic health record (EHR), we developed Doctor AI, a generic predictive model that covers observed medical conditions and medication uses. Doctor AI is a temporal model using recurrent neural networks (RNN) and was developed and applied to longitudinal time stamped EHR data from 260K patients and 2,128 physicians over 8 years. Encounter records (e.g. diagnosis codes, medication codes or procedure codes) were input to RNN to predict (all) the diagnosis and medication categories for a subsequent visit. Doctor AI assesses the history of patients to make multilabel predictions (one label for each diagnosis or medication category). Based on separate blind test set evaluation, Doctor AI can perform differential diagnosis with up to 79% recall@30, significantly higher than several baselines. Moreover, we demonstrate great generalizability of Doctor AI by adapting the resulting models from one institution to another without losing substantial accuracy.  
 
-## 23. [2016 AMIA]Learning Low-Dimensional Representations of Medical Concepts  
+## 34. [2016]Learning Low-Dimensional Representations of Medical Concepts  
 [论文](Learning_Low-Dimensional_Representations.pdf)  
 医学概念的表示学习.  
 **Authors**: Youngduck Choi, Chill Yi-I Chiu, David Sontag  
-**Journal/Conference**: **AMIA** Jt Summits Transl Sci Proc  
+**Conference**: **AMIA** Jt Summits Transl Sci Proc  
 **Affiliation**: New York University  
-
-## 24. [2019 Patent]System and Method for Predicting and Summarizing Medical Events from Electroinc Health Records  
-[专利全文](Google_Patent2019.pdf)  
-**Affiliation**: **Google Inc**
-
-## Multitask learning and benchmarking with clinical time series data
-**Authors**: H Harutyunyan, H Khachatrian, DC Kale… 
-**Abstract**:Health care is one of the most exciting frontiers in data mining and machine learning. Successful adoption of electronic health records (EHRs) created an explosion in digital clinical data available for analysis, but progress in machine learning for healthcare research …
-	
-## Recurrent neural networks for multivariate time series with missing values
-**Authors**: Z Che, S Purushotham, K Cho, D Sontag, Y Liu - Scientific reports, 2018 - nature.com
-**Abstract**: Multivariate time series data in practical applications, such as health care, geoscience, and biology, are characterized by a variety of missing values. In time series prediction and other related tasks, it has been noted that missing values and their missing patterns are often …
-
-## An improved multi-output gaussian process rnn with real-time validation for early sepsis detection
-**Authors**: J Futoma, S Hariharan, M Sendak, N Brajer… - arXiv preprint arXiv …, 2017 - arxiv.org
-**Abstract**: Sepsis is a poorly understood and potentially life-threatening complication that can occur as a result of infection. Early detection and treatment improves patient outcomes, and as such it poses an important challenge in medicine. In this work, we develop a flexible classifier that …
-	
-
-## Time-series classification using neural bag-of-features
-**Authors**: N Passalis, A Tsantekidis, A Tefas… - 2017 25th European …, 2017 - ieeexplore.ieee.org
-**Abstract**: Classification of time-series data is a challenging problem with many real-world 
-	applications, ranging from identifying medical conditions from electroencephalography 
-	(EEG) measurements to forecasting the stock market. The well known Bag-of-Features (BoF) …
-	
-## Forecasting across time series databases using long short-term memory networks on groups of similar series
-**Authors**: K Bandara, C Bergmeir, S Smyl - arXiv preprint arXiv …, 2017 - pdfs.semanticscholar.org
-**Abstract**:	With the advent of Big Data, nowadays in many applications databases containing large quantities of similar time series are available. Forecasting time series in these domains with traditional univariate forecasting procedures leaves great potentials for producing accurate …
-	
-	
-## Deep learning for time series classification: a review
-**Authors**: HI Fawaz, G Forestier, J Weber, L Idoumghar… - Data Mining and …, 2019 - Springer
-**Abstract**:	Abstract Time Series Classification (TSC) is an important and challenging problem in data mining. With the increase of time series data availability, hundreds of TSC algorithms have been proposed. Among these methods, only a few have considered Deep Neural Networks …
-	
-	
-## Effective Representations of Clinical Notes
-**Authors**: S Dubois, N Romano, DC Kale, N Shah… - arXiv preprint arXiv …, 2017 - arxiv.org
-**Abstract**: Clinical notes are a rich source of information about patient state. However, using them to predict clinical events with machine learning models is challenging. They are very high dimensional, sparse and have complex structure. Furthermore, training data is often scarce …
-	
-
-## Transfer learning for clinical time series analysis using recurrent neural networks
-**Authors**: P Gupta, P Malhotra, L Vig, G Shroff - arXiv preprint arXiv:1807.01705, 2018 - arxiv.org
-**Abstract**: Deep neural networks have shown promising results for various clinical prediction tasks such as diagnosis, mortality prediction, predicting duration of stay in hospital, etc. However, training deep networks--such as those based on Recurrent Neural Networks (RNNs) …
-	
-## Machine learning for real-time prediction of complications in critical care: a retrospective study
-**Authors**: A Meyer, D Zverinski, B Pfahringer, J Kempfert… - The Lancet Respiratory …, 2018 - Elsevier
-**Abstract**: Background The large amount of clinical signals in intensive care units can easily overwhelm health-care personnel and can lead to treatment delays, suboptimal care, or clinical errors. The aim of this study was to apply deep machine learning methods to predict …
-
+**Abstract**: We show how to learn low-dimensional representations (embeddings) of a wide range of concepts in medicine, including diseases (e.g., ICD9 codes), medications, procedures, and laboratory tests. We expect that these em- beddings will be useful across medical informatics for tasks such as cohort selection and patient summarization. These embeddings are learned using a technique called neural language modeling from the natural language processing community. However, rather than learning the embeddings solely from text, we show how to learn the embeddings from claims data, which is widely available both to providers and to payers. We also show that with a simple algorithmic adjustment, it is possible to learn medical concept embeddings in a privacy preserv- ing manner from co-occurrence counts derived from clinical narratives. Finally, we establish a methodological framework, arising from standard medical ontologies such as UMLS, NDF-RT, and CCS, to further investigate the embeddings and precisely characterize their quantitative properties.  
