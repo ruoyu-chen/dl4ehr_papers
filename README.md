@@ -130,6 +130,7 @@ DRL应用在医学检查的建议上.
 
 ## 16. [2018]Unsupervised Pseudo-Labeling for Extractive Summarization on Electronic Health Records  
 [论文](Unsupervised_Pseudo-Labeling_Extractive_Summarization.pdf)  
+[URL](https://arxiv.org/abs/1811.08040)  
 **Authors**: Xiangan Liu, Keyang Xu, Pengtao Xie, Eric Xing  
 **Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Petuum Inc.(CMU)  
@@ -138,6 +139,7 @@ DRL应用在医学检查的建议上.
 
 ## 17. [2018]Machine Learning on Electronic Health Records: Models and Features Usages to predict Medication Non-Adherence  
 [论文](Models_Features_Usages_predict_Medication_Non-Adherence.pdf)  
+[URL](https://arxiv.org/abs/1811.12234)  
 **Authors**: Thomas Janssoone1, Clémence Bic1, Dorra Kanoun2, Pierre Hornus1, Pierre Rinder1  
 **Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: 1)Semeia, Paris, France(法国的一家初创公司); 2)Institut Pasteur(巴斯德研究院), Paris, France.  
@@ -145,6 +147,7 @@ DRL应用在医学检查的建议上.
 
 ## 18. [2018]Opportunities and challenges in developing deep learning models using electronic health records data: a systematic review  
 [论文](Opportunities_and_challenges.pdf)  
+[URL](https://www.ncbi.nlm.nih.gov/pubmed/29893864)  
 **Authors**: Cao Xiao1,  Edward Choi2,  **Jimeng Sun[†]** 2  
 **Journal**: **JAMIA**, Journal of the American Medical Informatics Association  
 **Affiliation**: 1 AI for Healthcare, **IBM Research**, 2 School of Computational Science and Engineering, **Georgia Institute of Technology**  
@@ -154,6 +157,7 @@ DRL应用在医学检查的建议上.
 
 ## 19. [2018]Recurrent Neural Networks for Multivariate Time Series with Missing Values  
 [论文](RNN4Multivariate_Time_Series_with_Missing_Values.pdf)  
+[URL](https://www.nature.com/articles/s41598-018-24271-9)  
 **Authors**: Zhengping Che 1, Sanjay Purushotham 1, Kyunghyun Cho 2, David Sontag 3 & Yan Liu1  
 **Journal**: Nature Scientific Reports  
 **Affiliation**: 1 University of Southern California, Department of Computer Science. 2 New York University, Department of Computer Science. 3 Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science  
@@ -161,6 +165,7 @@ DRL应用在医学检查的建议上.
 
 ## 20. [2018]Transfer learning for clinical time series analysis using recurrent neural networks
 [论文](Transfer_Learning_for_Clinical_Time_Series_Analysis.pdf)  
+[URL](https://arxiv.org/abs/1807.01705)  
 **Authors**: Priyanka Gupta, Pankaj Malhotra, Lovekesh Vig, Gautam Shroff  
 **Conference**: 2018 KDD Workshop on Machine Learning for Medicine and Healthcare  
 **Affiliation**:TCS Research, New Delhi, India(塔塔咨询服务公司研究院)  
@@ -168,6 +173,7 @@ DRL应用在医学检查的建议上.
 
 ## 21. [2018]Machine learning for real-time prediction of complications in critical care: a retrospective study
 [论文](Machine_learning4real-time_prediction_complications.pdf)  
+[URL](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(18)30300-X/fulltext)  
 **Authors**: Meyer A1, Zverinski D1, Pfahringer B1, Kempfert J1, Kuehne T2, Sündermann SH1, Stamm C1, Hofmann T3, Falk V1, Eickhoff C3.  
 **Journal**: The Lancet, Respiratory Medicine  
 **Affiliation**: 1 Department of Cardiothoracic and Vascular Surgery, Deutsches Herzzentrum Berlin, 2 Institute of Imaging Science and Computational Modelling, Charité - Universitätsmedizin Berlin, 3 Department of Computer Science, ETH Zurich  
@@ -178,6 +184,7 @@ DRL应用在医学检查的建议上.
 
 ## 22. [2017]Deep reinforcement learning for automated radiation adaptation in lung cancer  
 [论文](Deep_reinforcement_learning4automated_radiation.pdf)  
+[URL](https://www.ncbi.nlm.nih.gov/pubmed/29034482)  
 **Authors**: Huan-Hsin Tseng, Yi Luo, Sunan Cui, Jen-Tzung Chien*, Randall K. Ten Haken, and **Issam El Naqa[†]**  
 **Journal**: Medical Physics  
 **Affiliation**: **University of Michigan**, Department of Radiation Oncology; * Department of Electrical and Computer Engineering, National Chiao Tung University, Hsinchu, Taiwan(台湾清华大学)  
@@ -188,6 +195,7 @@ DRL应用在医学检查的建议上.
 
 ## 23. [2017]Clinical Intervention Prediction and Understanding with Deep Neural Networks  
 [论文](Clinical_Intervention_Prediction.pdf)  
+[URL](http://proceedings.mlr.press/v68/suresh17a.html)  
 **Authors**: Harini Suresh, Nathan Hunt, Alistair Johnson, Leo Anthony Celi, Peter Szolovits, Marzyeh Ghassemi  
 **Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
 **Affiliation**: **MIT**, Computer Science and Artificial Intelligence Lab, Laboratory for Computational Physiology  
@@ -195,6 +203,7 @@ DRL应用在医学检查的建议上.
 
 ## 24. [2017]Predicting Medications from Diagnostic Codes with Recurrent Neural Networks  
 [论文](Predicting_Medications_from_Diagnostic_Codes.pdf)  
+[URL](https://openreview.net/forum?id=rJEgeXFex)  
 **Authors**: Jacek M. Bajor, Thomas A. Lasko  
 **Conference**: **ICLR**,  International Conference on Learning Representations  
 **Affiliation**: **Vanderbilt University School of Medicine**, Department of Biomedical Informatics  
@@ -202,6 +211,7 @@ DRL应用在医学检查的建议上.
 
 ## 25. [2017]An Improved Multi-Output Gaussian Process RNN with Real-Time Validation for Early Sepsis Detection
 [论文](An_Improved_Multi-Output_Gaussian_Process_RNN_with_Real-Time_Validation.pdf)  
+[URL](http://proceedings.mlr.press/v68/futoma17a.html)  
 **Authors**: Joseph Futoma1, Sanjay Hariharan1, Katherine Heller1, Mark Sendak2, Nathan Brajer2, Meredith Clement3, Armando Bedoya3, Cara O’Brien3
 **Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
 **Affiliation**: Duke University, 1 Department of Statistical Science, 2 Institute for Health Innovation, 3 Department of Medicine    
@@ -209,6 +219,7 @@ DRL应用在医学检查的建议上.
 
 ## 26. [2017]Time-series classification using neural Bag-of-Features
 [论文](Time-series_Classification_Using_Neural_Bag-of-Features.pdf)  
+[URL](https://ieeexplore.ieee.org/document/8081217)  
 **Authors**: Nikolaos Passalis1, Avraam Tsantekidis1, Anastasios Tefas1, Juho Kanniainen2, Moncef Gabbouj2 and Alexandros Iosifidis2,3  
 **Conference**: 2017 25th European Signal Processing Conference (EUSIPCO)
 **Affiliation**: Aristotle University of Thessaloniki(希腊，塞萨洛尼基亚里士多德大学), 2 Tampere University of Technology(芬兰，坦佩雷理工大学), 3 Aarhus University(丹麦, 奥胡斯大学)  
@@ -216,6 +227,7 @@ DRL应用在医学检查的建议上.
 
 ## 27. [2017]Effective Representations of Clinical Notes
 [论文](Effective_Representations_of_Clinical_Notes.pdf)  
+[URL](https://arxiv.org/abs/1705.07025)  
 **Authors**: Sebastien Dubois1, Nathanael Romano1, David C. Kale2, Nigam Shah1, Kenneth Jung1
 **Preprint**: [arXiv](https://arxiv.org/abs/1705.07025)  
 **Affiliation**: 1 Stanford Center for Biomedical Informatics Research, 2 USC Information Sciences Institute, University of Southern California  
@@ -223,24 +235,15 @@ DRL应用在医学检查的建议上.
 
 ## 28. [2017]Forecasting Across Time Series Databases using Recurrent Neural Networks on Groups of Similar Series: A Clustering Approach
 [论文](Forecasting_Across_Time_Series_Databases_RNN.pdf)  
+[URL](https://arxiv.org/abs/1710.03222)  
 **Authors**: Kasun Bandara1, Christoph Bergmeir1, Slawek Smyl2  
 **Preprint**: [arXiv](https://arxiv.org/abs/1710.03222)  
 **Affiliation**: 1 Faculty of Information Technology, Monash University, 2 Uber Technologies Inc, San Francisco  
 **Abstract**: With the advent of Big Data, nowadays in many applications databases containing large quantities of similar time series are available. Forecasting time series in these domains with traditional univariate forecasting procedures leaves great potentials for producing accurate forecasts untapped. Recurrent neural networks (RNNs), and in particular Long Short-Term Memory (LSTM) networks, have proven recently that they are able to outperform state-of-the-art univariate time series forecasting methods in this context when trained across all available time series. However, if the time series database is heterogeneous, accuracy may degenerate, so that on the way towards fully automatic forecasting methods in this space, a notion of similarity between the time series needs to be built into the methods. To this end, we present a prediction model that can be used with different types of RNN models on subgroups of similar time series, which are identified by time series clustering techniques. We assess our proposed methodology using LSTM networks, a widely popular RNN variant. Our method achieves competitive results on benchmarking datasets under competition evaluation procedures. In particular, in terms of mean sMAPE accuracy, it consistently outperforms the baseline LSTM model and outperforms all other methods on the CIF2016 forecasting competition dataset.  
 
-
-## 29. [2016]Real-time prediction of mortality, readmission, and length of stay using electronic health record data  
-[论文](Real-time_prediction_of_mortality.pdf)  
-**Authors**: Xiongcai Cai1, Oscar Perez-Concha2, Enrico Coiera2, Fernando Martin-Sanchez3, Richard Day4, David Roffe5,  **Blanca Gallego[†]** 2  
-**Journal**: **JAMIA**  
-**Affiliation**: [澳大利亚]1 School of Computer Science and Engineering, The University of New South Wales, 2 Centre of Health Informatics, AIHI, Macquarie University, 3 Melbourne School of Information, The University of Melbourne, 4 School of Medical Sciences, The University of New South Wales, 5 Information Technology Service Centre, St Vincent’s Hospital.   
-**Abstract**: Objective To develop a predictive model for real-time predictions of length of stay, mortality, and readmission for hospitalized patients using elec- tronic health records (EHRs).
-              Materials and Methods A Bayesian Network model was built to estimate the probability of a hospitalized patient being “at home,” in the hospital, or dead for each of the next 7 days. The network utilizes patient-specific administrative and laboratory data and is updated each time a new pa- thology test result becomes available. Electronic health records from 32 634 patients admitted to a Sydney metropolitan hospital via the emergency department from July 2008 through December 2011 were used. The model was tested on 2011 data and trained on the data of earlier years. Results The model achieved an average daily accuracy of 80% and area under the receiving operating characteristic curve (AUROC) of 0.82. The model’s predictive ability was highest within 24 hours from prediction (AUROC 1⁄4 0.83) and decreased slightly with time. Death was the most pre- dictable outcome with a daily average accuracy of 93% and AUROC of 0.84.
-              Discussion We developed the first non–disease-specific model that simultaneously predicts remaining days of hospitalization, death, and readmis- sion as part of the same outcome. By providing a future daily probability for each outcome class, we enable the visualization of future patient tra- jectories. Among these, it is possible to identify trajectories indicating expected discharge, expected continuing hospitalization, expected death, and possible readmission.
-              Conclusions Bayesian Networks can model EHRs to provide real-time forecasts for patient outcomes, which provide richer information than tradi- tional independent point predictions of length of stay, death, or readmission, and can thus better support decision making.  
-
-## 30. [2016]Using recurrent neural network models for early detection of heart failure onset  
+## 29. [2017]Using recurrent neural network models for early detection of heart failure onset  
 [论文](Using_RNN_for_early_detection_of_HF.pdf)  
+[URL](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391725/)  
 **Authors**: Edward Choi,1 Andy Schuetz,2 Walter F Stewart,2 and **Jimeng Sun[†]** 1  
 **Journal**: **JAMIA**  
 **Affiliation**: 1 Georgia Institute of Technology, 2 Sutter Health  
@@ -249,8 +252,21 @@ DRL应用在医学检查的建议上.
               Results: Using a 12-month observation window, the area under the curve (AUC) for the RNN model was 0.777, compared to AUCs for logistic regression (0.747), multilayer perceptron (MLP) with 1 hidden layer (0.765), sup- port vector machine (SVM) (0.743), and K-nearest neighbor (KNN) (0.730). When using an 18-month observation window, the AUC for the RNN model increased to 0.883 and was significantly higher than the 0.834 AUC for the best of the baseline methods (MLP).
               Conclusion: Deep learning models adapted to leverage temporal relations appear to improve performance of models for detection of incident heart failure with a short observation window of 12–18 months.  
 
+## 30. [2016]Real-time prediction of mortality, readmission, and length of stay using electronic health record data  
+[论文](Real-time_prediction_of_mortality.pdf)  
+[URL](https://www.ncbi.nlm.nih.gov/pubmed/26374704)  
+**Authors**: Xiongcai Cai1, Oscar Perez-Concha2, Enrico Coiera2, Fernando Martin-Sanchez3, Richard Day4, David Roffe5,  **Blanca Gallego[†]** 2  
+**Journal**: **JAMIA**  
+**Affiliation**: [澳大利亚]1 School of Computer Science and Engineering, The University of New South Wales, 2 Centre of Health Informatics, AIHI, Macquarie University, 3 Melbourne School of Information, The University of Melbourne, 4 School of Medical Sciences, The University of New South Wales, 5 Information Technology Service Centre, St Vincent’s Hospital.   
+**Abstract**: Objective To develop a predictive model for real-time predictions of length of stay, mortality, and readmission for hospitalized patients using elec- tronic health records (EHRs).
+              Materials and Methods A Bayesian Network model was built to estimate the probability of a hospitalized patient being “at home,” in the hospital, or dead for each of the next 7 days. The network utilizes patient-specific administrative and laboratory data and is updated each time a new pa- thology test result becomes available. Electronic health records from 32 634 patients admitted to a Sydney metropolitan hospital via the emergency department from July 2008 through December 2011 were used. The model was tested on 2011 data and trained on the data of earlier years. Results The model achieved an average daily accuracy of 80% and area under the receiving operating characteristic curve (AUROC) of 0.82. The model’s predictive ability was highest within 24 hours from prediction (AUROC 1⁄4 0.83) and decreased slightly with time. Death was the most pre- dictable outcome with a daily average accuracy of 93% and AUROC of 0.84.
+              Discussion We developed the first non–disease-specific model that simultaneously predicts remaining days of hospitalization, death, and readmis- sion as part of the same outcome. By providing a future daily probability for each outcome class, we enable the visualization of future patient tra- jectories. Among these, it is possible to identify trajectories indicating expected discharge, expected continuing hospitalization, expected death, and possible readmission.
+              Conclusions Bayesian Networks can model EHRs to provide real-time forecasts for patient outcomes, which provide richer information than tradi- tional independent point predictions of length of stay, death, or readmission, and can thus better support decision making.  
+
+
 ## 31. [2016]Multi-layer Representation Learning for Medical Concepts  
 [论文](Multi-layer_Representation_Learning.pdf)  
+[URL](https://dl.acm.org/citation.cfm?id=2939823)  
 **Authors**: Edward Choi1, Mohammad Taha Bahadori1, Elizabeth Searles2, Catherine Coffey2, Michael Thompson2, James Bost2, Javier Tejedor-Sojo2, **Jimeng Sun**1  
 **Conference**: **KDD**, ACM SIGKDD International Conference on Knowledge Discovery and Data Mining  
 **Affiliation**: 1 Georgia Institute of Technology, 2 Children’s Healthcare of Atlanta  
@@ -258,6 +274,7 @@ DRL应用在医学检查的建议上.
 
 ## 32. [2016]Learning to diagnose with LSTM recurrent neural networks  
 [论文](Learning_to_diagnose_with_LSTM.pdf)  
+[URL](https://arxiv.org/abs/1511.03677)  
 **Authors**: Zachary C. Lipton 1, David C. Kale 2, Charles Elkan 1, Randall Wetzel 3  
 **Conference**: **ICLR**, International Conference on Learning Representations  
 **Affiliation**: 1 University of California, Department of Computer Science and Engineering, 2 University of Southern California, Department of Computer Science,3 Children’s Hospital Los Angeles   
@@ -265,6 +282,7 @@ DRL应用在医学检查的建议上.
 
 ## 33. [2016]Deep patient: an unsupervised representation to predict the future of patients from the electronic health records  
 [论文](Deep_patient.pdf)  
+[URL](https://www.nature.com/articles/srep26094)  
 **Authors**: Riccardo Miotto1,2,3, Li Li1,2,3, Brian A. Kidd1,2,3, **Joel T. Dudley[†]** 1,2,3  
 **Journal**: Nature, Scientific Reports  
 **Affiliation**: **Icahn School of Medicine at Mount Sinai**, 1Department of Genetics and Genomic Sciences, 2 Harris Center for Precision Wellness, 3 Icahn Institute for Genomics and Multiscale Biology  
@@ -272,6 +290,7 @@ DRL应用在医学检查的建议上.
 
 ## 34. [2016]Doctor AI: Predicting Clinical Events via Recurrent Neural Networks  
 [论文](Doctor_AI.pdf)  
+[URL](http://proceedings.mlr.press/v56/Choi16.html)  
 **Authors**: Edward Choi, Mohammad Taha Bahadori, Andy Schuetz, Walter F. Stewart, **Jimeng Sun**  
 **Conference**: Proceedings of Machine Learning for Healthcare(ML4HC)  
 **Affiliation**: College of Computing, **Georgia Institute of Technology**| Research Development & Dissemination, **Sutter Health**  
@@ -279,6 +298,7 @@ DRL应用在医学检查的建议上.
 
 ## 35. [2016]Learning Low-Dimensional Representations of Medical Concepts  
 [论文](Learning_Low-Dimensional_Representations.pdf)  
+[URL](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001761/)  
 医学概念的表示学习.  
 **Authors**: Youngduck Choi, Chill Yi-I Chiu, David Sontag  
 **Conference**: **AMIA** Jt Summits Transl Sci Proc  
