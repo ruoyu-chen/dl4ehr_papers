@@ -1,5 +1,8 @@
 # 1. EHR文献调研
 
+下载文献列表[bib](collection.bib),[ris](collection.ris),[endnote xml](collection.xml)  
+
+
 ## 1. [2019]Guidelines for reinforcement learning in healthcare  
 [论文](Guidelines_for_reinforcement_learning_in_healthcare.pdf)  
 [URL](https://www.nature.com/articles/s41591-018-0310-5)   
