@@ -2,6 +2,7 @@
 
 ## 1. [2019]Guidelines for reinforcement learning in healthcare  
 [论文](Guidelines_for_reinforcement_learning_in_healthcare.pdf)  
+[URL](https://www.nature.com/articles/s41591-018-0310-5)   
 **Authors**: Omer Gottesman1, Fredrik Johansson2, Matthieu Komorowski3,4, Aldo Faisal4, David Sontag2, Finale Doshi-Velez 1 and Leo Anthony Celi3,5  
 **Journal**: Nature Medicine  
 **Affiliation**: （哈佛大学/MIT）1 Harvard University. 2 MIT. 3 Harvard-MIT Health Sciences & Technology. 4 Imperial College London. 5 Beth Israel Deaconess Medical Center
@@ -9,6 +10,7 @@
 
 ## 2. [2019]Multitask learning and benchmarking with clinical time series data
 [论文](Multitask_learning_benchmarking_clinical_time_series_data.pdf)  
+[URL](https://www.nature.com/articles/s41597-019-0103-9)  
 **Authors**: Hrayr Harutyunyan1, Hrant Khachatrian 2,3, David C. Kale1, Greg Ver Steeg1 & aram Galstyan1  
 **Journal**: Nature Scientific Data  
 **Affiliation**: 1 USC Information Sciences Institute. 2 Yerevann, Yerevan, 0025, Armenia. 3 Yerevan State University, Armenia.  
@@ -16,6 +18,7 @@
 
 ## 3. [2019]Deep Reinforcement Learning for Clinical Decision Support: A Brief Survey
 [论文](DRL4Clinical_Decision_Support_Survey.pdf)  
+[URL](https://arxiv.org/abs/1907.09475)  
 **Authors**: Siqi Liu1, Kee Yuan Ngiam2, Mengling Feng1  
 **Preprint**: [arXiv](https://arxiv.org/abs/1907.09475)  
 **Affiliation**: 1 National University of Singapore(新加坡国立大学), 2 National University Hospital(新加坡国立大学附属医院)  
@@ -23,6 +26,7 @@
 
 ## 4. [2019]A guide to deep learning in healthcare  
 [论文](A_guide_to_deep_learning_in_healthcare.pdf)  
+[URL](https://www.nature.com/articles/s41591-018-0316-z)  
 **Authors**: Andre Esteva1*, Alexandre Robicquet1, Bharath Ramsundar1, Volodymyr Kuleshov1, Mark DePristo2, Katherine Chou2, Claire Cui2, Greg Corrado2, Sebastian Thrun1 and Jeff Dean2.  
 **Journal**: Nature Medicine  
 **Affiliation**:  1 Stanford University. 2 **Google Research**. 
@@ -30,6 +34,7 @@
 
 ## 5. [2019]Effective Medical Test Suggestions Using Deep Reinforcement Learning  
 [论文](Effective_Medical_Test_Suggestions.pdf)  
+[URL](https://arxiv.org/abs/1907.09475)  
 DRL应用在医学检查的建议上.  
 **Authors**: Yang-En Chen, Kai-Fu Tang, Yu-Shao Peng, Edward Y. Chang(张智威)  
 **Preprint**: [arXiv](https://arxiv.org/abs/1905.12916)  
@@ -37,7 +42,8 @@ DRL应用在医学检查的建议上.
 **Abstract**: Effective medical test suggestions benefit both patients and physicians to conserve time and improve diagnosis accuracy. In this work, we show that an agent can learn to suggest effective medical tests. We formulate the problem as a stage-wise Markov decision process and propose a reinforcement learning method to train the agent. We introduce a new representation of multiple action policy along with the training method of the proposed representation. Furthermore, a new exploration scheme is proposed to accelerate the learning of disease distributions. Our experimental results demonstrate that the accuracy of disease diagnosis can be significantly improved with good medical test suggestions.  
 
 ## 6. [2019]Evaluation and accurate diagnoses of pediatric diseases using artificial intelligence  
-[论文](Evaluation_accurate_diagnoses_pediatric_diseases.pdf)    
+[论文](Evaluation_accurate_diagnoses_pediatric_diseases.pdf)  
+[URL](https://www.nature.com/articles/s41591-018-0335-9)  
 **Authors**: Huiying Liang1, Brian Y. Tsui2, Hao Ni3, Carolina C. S. Valentim4, Sally L. Baxter2, Guangjian Liu1, Wenjia Cai2, et al.  
 **Journal**: Nature Medicine  
 **Affiliation**:  
@@ -49,6 +55,7 @@ DRL应用在医学检查的建议上.
 
 ## 7. [2019]Deep learning for time series classification: a review
 [论文](Deep_learning4time_series_classification.pdf)  
+[URL](https://link.springer.com/article/10.1007/s10618-019-00619-1)  
 **Authors**: Hassan Ismail Fawaz1, Germain Forestier1,2, Jonathan Weber1, Lhassane Idoumghar1, Pierre-Alain Muller1  
 **Journal**: Data Mining and Knowledge Discovery  
 **Affiliation**: 1 IRIMAS, Université Haute Alsace, Mulhouse, France, 2 Faculty of IT, Monash University, Melbourne, Australia  
@@ -56,6 +63,7 @@ DRL应用在医学检查的建议上.
 
 ## 8. [2019]A clinically applicable approach to continuous prediction of future acute kidney injury
 [论文](A_clinically_applicable_approach_continuous_prediction_acute_kidney_injury.pdf)  
+[URL](https://www.nature.com/articles/s41586-019-1390-1)  
 **Authors**: Nenad Tomašev1, Xavier Glorot1, Jack W. Rae1,2, Michal Zielinski1, Harry Askham1, Andre Saraiva1, Anne Mottram1, Clemens Meyer1, Suman Ravuri1, Ivan Protsyuk1, Alistair Connell1, Cían O. Hughes1, Alan Karthikesalingam1, Julien Cornebise1, Hugh Montgomery2, Geraint Rees2, Chris Laing, Clifton R. Baker, Kelly Peterson, Ruth Reeves, Demis Hassabis1, Dominic King1, Mustafa Suleyman1, Trevor Back1, Christopher Nielson, Joseph R. Ledsam & Shakir Mohamed1   
 **Journal**: Nature  
 **Affiliation**: 1 DeepMind, London, UK; 2 University College London, London, UK  
@@ -68,6 +76,7 @@ DRL应用在医学检查的建议上.
 
 ## 10. [2018]Clinical information extraction applications: A literature review  
 [论文](Clinical_information_extraction_applications.pdf)  
+[URL](https://www.sciencedirect.com/science/article/pii/S1532046417302563)  
 临床信息抽取的应用，综述.  
 **Authors**: Yanshan Wang, Liwei Wang, Majid Rastegar-Mojarad, Sungrim Moon, Feichen Shen, Naveed Afzal, Sijia Liu, Yuqun Zeng1, Saeed Mehrabi2, Sunghwan Sohn, **Hongfang Liu[†]**  
 **Journal**: Journal of Biomedical Informatics  
@@ -80,6 +89,7 @@ DRL应用在医学检查的建议上.
 
 ## 11. [2018]Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record (EHR) Analysis  
 [论文](Deep_EHR.pdf)  
+[URL](https://ieeexplore.ieee.org/document/8086133)  
 深度学习技术在EHR分析中的研究进展，综述.  
 **Authors**: **Benjamin Shickel[†]** , Patrick James Tighe, Azra Bihorac , and Parisa Rashidi  
 **Journal**: IEEE Journal of Biomedical and Health Informatics  
@@ -88,6 +98,7 @@ DRL应用在医学检查的建议上.
 
 ## 12. [2018]Neural Precision Medicine by Mining Implicit Treatment Concepts  
 [论文](Neural_Precision_Medicine.pdf)  
+[URL](https://ieeexplore.ieee.org/document/8621536)  
 **Authors**: Canjia Li, Ben He, Le Sun(孙乐), Yingfei Sun  
 **Conference**: IEEE International Conference on Bioinformatics and Biomedicine  
 **Affiliation**: University of Chinese Academy of Sciences(中科院大学)|Institute of Software, Chinese Academy of Sciences(中科院软件所)  
@@ -95,6 +106,7 @@ DRL应用在医学检查的建议上.
 
 ## 13. [2018]Scalable and accurate deep learning with electronic health records  
 [论文](Scalable_and_accurate.pdf)  
+[URL](https://www.nature.com/articles/s41746-018-0029-1)  
 **Authors**: Alvin Rajkomar 1,2, Eyal Oren1, Kai Chen1, Andrew M. Dai1, Nissan Hajaj1, Michaela Hardt1, Peter J. Liu1, Xiaobing Liu1, Jake Marcus1, Mimi Sun1, Patrik Sundberg1, Hector Yee1, Kun Zhang1, Yi Zhang1, Gerardo Flores1, Gavin E. Duggan1, Jamie Irvine1, Quoc Le1, Kurt Litsch1, Alexander Mossin1, Justin Tansuwan1, De Wang1, James Wexler1, Jimbo Wilson1, Dana Ludwig2, Samuel L. Volchenboum3, Katherine Chou1, Michael Pearson1, Srinivasan Madabushi1, Nigam H. Shah4, Atul J. Butte2, Michael D. Howell1, Claire Cui1, Greg S. Corrado1 and Jeffrey Dean1  
 **Journal**: Nature, Digital Medicine  
 **Affiliation**: 1 **Google Inc**; 2 University of California; 3 University of Chicago Medicine; 4 Stanford University  
@@ -102,6 +114,7 @@ DRL应用在医学检查的建议上.
 
 ## 14. [2018]Improving Clinical Predictions through Unsupervised Time Series Representation Learning  
 [论文](Improving_Clinical_Predictions.pdf)  
+[URL](https://arxiv.org/abs/1812.00490)  
 **Authors**: Xinrui Lyu, Matthias Hüser, Stephanie L. Hyland, George Zerveas * , Gunnar Rätsch  
 **Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Biomedical Informatics Group, Dept. of Computer Science, **ETH Zürich**;  * AI Lab, Center for Biomedical Informatics, **Brown University**  
@@ -109,6 +122,7 @@ DRL应用在医学检查的建议上.
 
 ## 15. [2018]Application of Clinical Concept Embeddings for Heart Failure Prediction in UK EHR data  
 [论文](Application_Clinical_Concept_Embeddings4HF.pdf).  
+[URL](https://arxiv.org/abs/1811.11005)  
 **Authors**: Spiros Denaxas, Pontus Stenetorp*, Sebastian Riedel*, Maria Pikoula, Richard Dobson, Harry Hemingway  
 **Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Institute of Health Informatics|*Department of Computer Science, University College London  
