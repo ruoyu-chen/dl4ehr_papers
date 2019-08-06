@@ -124,9 +124,14 @@ DRL应用在医学检查的建议上.
 **Abstract**: In this work, we investigate unsupervised representation learning on medical time series, which bears the promise of leveraging copious amounts of existing unlabeled data in order to eventually assist clinical decision making. By evaluating on the prediction of clinically relevant outcomes, we show that in a practical setting, unsupervised representation learning can offer clear performance benefits over end- to-end supervised architectures. We experiment with using sequence-to-sequence (Seq2Seq) models in two different ways, as an autoencoder and as a forecaster, and show that the best performance is achieved by a forecasting Seq2Seq model with an integrated attention mechanism, proposed here for the first time in the setting of unsupervised learning for medical time series.  
 
 ## 15. [2018]Application of Clinical Concept Embeddings for Heart Failure Prediction in UK EHR data  
+没有太多参考价值，使用了GLoVe词向量，支持向量机模型，性能表现也不是很好。
+
 [论文](Application_Clinical_Concept_Embeddings4HF.pdf).  
-[URL](https://arxiv.org/abs/1811.11005)  
-**Authors**: Spiros Denaxas, Pontus Stenetorp*, Sebastian Riedel*, Maria Pikoula, Richard Dobson, Harry Hemingway  
+[URL](https://arxiv.org/abs/1811.11005)    
+
+[NOTES](notes/Application_Clinical_Concept_Embeddings4HF.md)  
+
+Authors**: Spiros Denaxas, Pontus Stenetorp*, Sebastian Riedel*, Maria Pikoula, Richard Dobson, Harry Hemingway  
 **Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Institute of Health Informatics|*Department of Computer Science, University College London  
 **Abstract**: Electronic health records (EHR) are increasingly being used for constructing dis- ease risk prediction models. Feature engineering in EHR data however is challeng- ing due to their highly dimensional and heterogeneous nature. Low-dimensional representations of EHR data can potentially mitigate these challenges. In this paper, we use global vectors (GloVe) to learn word embeddings for diagnoses and proce- dures recorded using 13 million ontology terms across 2.7 million hospitalisations in national UK EHR. We demonstrate the utility of these embeddings by evalu- ating their performance in identifying patients which are at higher risk of being hospitalized for congestive heart failure. Our findings indicate that embeddings can enable the creation of robust EHR-derived disease risk prediction models and address some the limitations associated with manual clinical feature engineering.  
