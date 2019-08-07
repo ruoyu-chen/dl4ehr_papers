@@ -65,8 +65,10 @@ DRL应用在医学检查的建议上.
 **Abstract**: Time Series Classification (TSC) is an important and challenging problem in data mining. With the increase of time series data availability, hundreds of TSC algorithms have been proposed. Among these methods, only a few have considered Deep Neural Networks (DNNs) to perform this task. This is surprising as deep learning has seen very successful applications in the last years. DNNs have indeed revolutionized the field of computer vision especially with the advent of novel deeper architectures such as Residual and Convolutional Neural Networks. Apart from images, sequential data such as text and audio can also be processed with DNNs to reach state-of-the-art performance for document classification and speech recognition. In this article, we study the current state-of-the-art performance of deep learning algorithms for TSC by presenting an empirical study of the most recent DNN architectures for TSC. We give an overview of the most successful deep learning applications in various time series domains under a unified taxonomy of DNNs for TSC. We also provide an open source deep learning framework to the TSC community where we implemented each of the compared approaches and evaluated them on a univariate TSC benchmark (the UCR/UEA archive) and 12 multivariate time series datasets. By training 8730 deep learning models on 97 time series datasets, we propose the most exhaustive study of DNNs for TSC to date.  
 
 ## 8. [2019]A clinically applicable approach to continuous prediction of future acute kidney injury
+数据和代码都没有公开，使用了RNN模型，预测未来6小时小时～72小时内出现急性肾损伤（AKI）的概率。
 [论文](A_clinically_applicable_approach_continuous_prediction_acute_kidney_injury.pdf)  
 [URL](https://www.nature.com/articles/s41586-019-1390-1)  
+[NOTES](notes/A_clinically_applicable_approach_continuous_prediction_acute_kidney_injury.md)  
 **Authors**: Nenad Tomašev1, Xavier Glorot1, Jack W. Rae1,2, Michal Zielinski1, Harry Askham1, Andre Saraiva1, Anne Mottram1, Clemens Meyer1, Suman Ravuri1, Ivan Protsyuk1, Alistair Connell1, Cían O. Hughes1, Alan Karthikesalingam1, Julien Cornebise1, Hugh Montgomery2, Geraint Rees2, Chris Laing, Clifton R. Baker, Kelly Peterson, Ruth Reeves, Demis Hassabis1, Dominic King1, Mustafa Suleyman1, Trevor Back1, Christopher Nielson, Joseph R. Ledsam & Shakir Mohamed1   
 **Journal**: Nature  
 **Affiliation**: 1 DeepMind, London, UK; 2 University College London, London, UK  
@@ -124,13 +126,10 @@ DRL应用在医学检查的建议上.
 **Abstract**: In this work, we investigate unsupervised representation learning on medical time series, which bears the promise of leveraging copious amounts of existing unlabeled data in order to eventually assist clinical decision making. By evaluating on the prediction of clinically relevant outcomes, we show that in a practical setting, unsupervised representation learning can offer clear performance benefits over end- to-end supervised architectures. We experiment with using sequence-to-sequence (Seq2Seq) models in two different ways, as an autoencoder and as a forecaster, and show that the best performance is achieved by a forecasting Seq2Seq model with an integrated attention mechanism, proposed here for the first time in the setting of unsupervised learning for medical time series.  
 
 ## 15. [2018]Application of Clinical Concept Embeddings for Heart Failure Prediction in UK EHR data  
-没有太多参考价值，使用了GLoVe词向量，支持向量机模型，性能表现也不是很好。
-
-[论文](Application_Clinical_Concept_Embeddings4HF.pdf).  
-[URL](https://arxiv.org/abs/1811.11005)    
-
+没有太多参考价值，使用了GLoVe词向量，支持向量机模型，性能表现也不是很好。  
+[论文](Application_Clinical_Concept_Embeddings4HF.pdf)  
+[URL](https://arxiv.org/abs/1811.11005)  
 [NOTES](notes/Application_Clinical_Concept_Embeddings4HF.md)  
-
 Authors**: Spiros Denaxas, Pontus Stenetorp*, Sebastian Riedel*, Maria Pikoula, Richard Dobson, Harry Hemingway  
 **Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Institute of Health Informatics|*Department of Computer Science, University College London  
