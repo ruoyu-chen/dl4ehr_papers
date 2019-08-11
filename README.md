@@ -1,19 +1,22 @@
 # 1. EHR文献调研
 
-下载文献列表[bib](collection.bib),[ris](collection.ris),[endnote xml](collection.xml)  
+下载文献列表[bib](collection.bib), [ris](collection.ris), [endnote xml](collection.xml)  
 
 
 ## 1. [2019]Guidelines for reinforcement learning in healthcare  
 [论文](Guidelines_for_reinforcement_learning_in_healthcare.pdf)  
 [URL](https://www.nature.com/articles/s41591-018-0310-5)   
+[NOTES](notes/Guidelines_for_reinforcement_learning_in_healthcare.md)  
 **Authors**: Omer Gottesman1, Fredrik Johansson2, Matthieu Komorowski3,4, Aldo Faisal4, David Sontag2, Finale Doshi-Velez 1 and Leo Anthony Celi3,5  
 **Journal**: Nature Medicine  
 **Affiliation**: （哈佛大学/MIT）1 Harvard University. 2 MIT. 3 Harvard-MIT Health Sciences & Technology. 4 Imperial College London. 5 Beth Israel Deaconess Medical Center
 **Abstract**: In this Comment, we provide guidelines for reinforcement learning for decisions about patient treatment that we hope will accelerate the rate at which observational cohorts can inform healthcare practice in a safe, risk-conscious manner.  
 
 ## 2. [2019]Multitask learning and benchmarking with clinical time series data
+[代码(开源)](https://github.com/YerevaNN/mimic3-benchmarks)  
 [论文](Multitask_learning_benchmarking_clinical_time_series_data.pdf)  
 [URL](https://www.nature.com/articles/s41597-019-0103-9)  
+[NOTES](notes/Multitask_learning_benchmarking_clinical_time_series_data.md)  
 **Authors**: Hrayr Harutyunyan1, Hrant Khachatrian 2,3, David C. Kale1, Greg Ver Steeg1 & aram Galstyan1  
 **Journal**: Nature Scientific Data  
 **Affiliation**: 1 USC Information Sciences Institute. 2 Yerevann, Yerevan, 0025, Armenia. 3 Yerevan State University, Armenia.  
@@ -65,7 +68,7 @@ DRL应用在医学检查的建议上.
 **Abstract**: Time Series Classification (TSC) is an important and challenging problem in data mining. With the increase of time series data availability, hundreds of TSC algorithms have been proposed. Among these methods, only a few have considered Deep Neural Networks (DNNs) to perform this task. This is surprising as deep learning has seen very successful applications in the last years. DNNs have indeed revolutionized the field of computer vision especially with the advent of novel deeper architectures such as Residual and Convolutional Neural Networks. Apart from images, sequential data such as text and audio can also be processed with DNNs to reach state-of-the-art performance for document classification and speech recognition. In this article, we study the current state-of-the-art performance of deep learning algorithms for TSC by presenting an empirical study of the most recent DNN architectures for TSC. We give an overview of the most successful deep learning applications in various time series domains under a unified taxonomy of DNNs for TSC. We also provide an open source deep learning framework to the TSC community where we implemented each of the compared approaches and evaluated them on a univariate TSC benchmark (the UCR/UEA archive) and 12 multivariate time series datasets. By training 8730 deep learning models on 97 time series datasets, we propose the most exhaustive study of DNNs for TSC to date.  
 
 ## 8. [2019]A clinically applicable approach to continuous prediction of future acute kidney injury
-数据和代码都没有公开，使用了RNN模型，预测未来6小时小时～72小时内出现急性肾损伤（AKI）的概率。
+数据和代码都没有公开，使用了RNN模型，预测未来6小时小时～72小时内出现急性肾损伤（AKI）的概率。  
 [论文](A_clinically_applicable_approach_continuous_prediction_acute_kidney_injury.pdf)  
 [URL](https://www.nature.com/articles/s41586-019-1390-1)  
 [NOTES](notes/A_clinically_applicable_approach_continuous_prediction_acute_kidney_injury.md)  
