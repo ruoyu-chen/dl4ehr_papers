@@ -123,6 +123,7 @@ DRL应用在医学检查的建议上.
 ## 14. [2018]Improving Clinical Predictions through Unsupervised Time Series Representation Learning  
 [论文](Improving_Clinical_Predictions.pdf)  
 [URL](https://arxiv.org/abs/1812.00490)  
+[NOTES](notes/Improving_Clinical_Predictions.md)  
 **Authors**: Xinrui Lyu, Matthias Hüser, Stephanie L. Hyland, George Zerveas * , Gunnar Rätsch  
 **Conference**: **NeurIPS**, Machine Learning for Health (ML4H) Workshop  
 **Affiliation**: Biomedical Informatics Group, Dept. of Computer Science, **ETH Zürich**;  * AI Lab, Center for Biomedical Informatics, **Brown University**  
