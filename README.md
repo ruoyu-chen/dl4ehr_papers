@@ -294,6 +294,7 @@ Authors**: Spiros Denaxas, Pontus Stenetorp*, Sebastian Riedel*, Maria Pikoula, 
 ## 33. [2016]Deep patient: an unsupervised representation to predict the future of patients from the electronic health records  
 [论文](Deep_patient.pdf)  
 [URL](https://www.nature.com/articles/srep26094)  
+[NOTES](notes/Deep_patient.md)  
 **Authors**: Riccardo Miotto1,2,3, Li Li1,2,3, Brian A. Kidd1,2,3, **Joel T. Dudley[†]** 1,2,3  
 **Journal**: Nature, Scientific Reports  
 **Affiliation**: **Icahn School of Medicine at Mount Sinai**, 1Department of Genetics and Genomic Sciences, 2 Harris Center for Precision Wellness, 3 Icahn Institute for Genomics and Multiscale Biology  
